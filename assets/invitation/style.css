@@ -1,0 +1,18 @@
+.banner {
+  background-color: white;
+  border: solid 30px black;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: xx-large;
+  text-align: center;
+  color: #00adb5;
+}
+
+.invite {
+  font-family: "Brygada 1918", serif;
+  margin: 20px;
+}
