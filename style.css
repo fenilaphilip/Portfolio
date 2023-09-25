@@ -1,12 +1,14 @@
 body {
   background-color: black;
 }
-
+#videoBG {
+  position: fixed;
+  z-index: -1;
+}
 #intro {
-  position: relative;
-  top: 150px;
-  left: 25%;
-
+  position: absolute;
+  left: 40%;
+  top: 25%;
   background: rgba(53, 44, 122, 0);
   color: #f1f1f1;
   max-width: 100%;
@@ -31,10 +33,10 @@ h2 {
 .navbar {
   background-color: rgba(53, 44, 122, 0);
   overflow: hidden;
+  position: fixed;
 }
 .navbar a {
-  float: right;
-  display: inline;
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -54,5 +56,21 @@ h2 {
   }
   .navbar a {
     font-size: 16px;
+  }
+  #intro {
+    left: 25%;
+    top: 25%;
+  }
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG {
+    width: auto;
+    height: 100%;
   }
 }
