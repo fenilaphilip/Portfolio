@@ -1,20 +1,26 @@
 body {
+  background-image: url("./media/mycover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
   background-color: black;
 }
-#videoBG {
-  position: fixed;
-  z-index: -1;
-}
+
 #intro {
+  float: left;
   position: absolute;
-  left: 40%;
-  top: 25%;
+  top: 250px;
+  left: 20%;
+  overflow: hidden;
   background: rgba(53, 44, 122, 0);
-  color: #f1f1f1;
   max-width: 100%;
+  text-align: center;
 }
 .foto {
   background-color: #f1f1f1;
+  position: relative;
+  left: 25%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -22,7 +28,7 @@ body {
 
 h1,
 h2 {
-  color: aliceblue;
+  color: whitesmoke;
 }
 h1 {
   font-size: 35px;
@@ -47,7 +53,16 @@ h2 {
   background-color: #ddd;
   color: black;
 }
+
 @media (max-width: 480px) {
+  body {
+    background-image: url("./media/parrot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-color: black;
+  }
   h1 {
     font-size: 25px;
   }
@@ -58,19 +73,17 @@ h2 {
     font-size: 16px;
   }
   #intro {
-    left: 25%;
-    top: 25%;
-  }
-}
-@media (min-aspect-ratio: 16/9) {
-  #videoBG {
-    width: 100%;
     height: auto;
+    position: relative;
+    left: 20%;
+  }
+  .foto {
+    left: 10%;
   }
 }
-@media (max-aspect-ratio: 16/9) {
-  #videoBG {
-    width: auto;
-    height: 100%;
+@media (max-height: 460px) {
+  #intro {
+    position: absolute;
+    top: 80px;
   }
 }
