@@ -1,10 +1,14 @@
 body {
-  background-image: url("./media/mycover.jpg");
+  background-color: black;
+  color: whitesmoke;
+}
+
+#home {
+  background-image: url("./media/cover2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  background-attachment: fixed;
-  background-color: black;
+  height: 1200px;
 }
 
 #intro {
@@ -36,10 +40,15 @@ h1 {
 h2 {
   font-size: 25px;
 }
+
 .navbar {
-  background-color: rgba(53, 44, 122, 0);
+  background-color: rgba(18, 17, 23, 0.979);
   overflow: hidden;
   position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .navbar a {
   display: inline-block;
@@ -53,15 +62,33 @@ h2 {
   background-color: #ddd;
   color: black;
 }
+#skills,
+#projects,
+#about,
+#contact {
+  padding: 50px;
+  background-color: black;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
 
+@media (max-width: 1280px) {
+  #home {
+    background-image: url("./media/mycover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+}
 @media (max-width: 480px) {
-  body {
+  #home {
     background-image: url("./media/parrot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    background-attachment: fixed;
-    background-color: black;
   }
   h1 {
     font-size: 25px;
