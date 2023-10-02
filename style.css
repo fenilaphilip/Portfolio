@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(18, 17, 23);
   color: whitesmoke;
 }
 
@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-position: top;
   height: 1200px;
+  margin: 0;
 }
 
 #intro {
@@ -17,7 +18,7 @@ body {
   top: 250px;
   left: 20%;
   overflow: hidden;
-  background: rgba(53, 44, 122, 0);
+  background: rgba(10, 9, 12, 0);
   max-width: 100%;
   text-align: center;
 }
@@ -42,7 +43,7 @@ h2 {
 }
 
 .navbar {
-  background-color: rgba(18, 17, 23, 0.979);
+  background-color: rgb(18, 17, 23);
   overflow: hidden;
   position: fixed;
   top: 0px;
@@ -66,8 +67,8 @@ h2 {
 #projects,
 #about,
 #contact {
-  padding: 50px;
-  background-color: black;
+  padding: 100px;
+  background-color: rgb(18, 17, 23);
   height: 900px;
   display: flex;
   align-items: center;
@@ -77,7 +78,7 @@ h2 {
 
 @media (max-width: 1280px) {
   #home {
-    background-image: url("./media/mycover.jpg");
+    background-image: url("./media/mycover.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -85,7 +86,7 @@ h2 {
 }
 @media (max-width: 480px) {
   #home {
-    background-image: url("./media/parrot.jpg");
+    background-image: url("./media/parrot.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
