@@ -1,21 +1,21 @@
+import NavButton from "./NavButton";
+
 export default function Navbar() {
     return (
         <section>
-            <header class="p-3">
-                <div class="container">
+            <header className="p-3">
+                <div className="container">
                     <div
-                        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+                        className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
                     >
                         <ul
-                            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+                            className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
                         >
-                            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                            <li>
-                                <a href="#" class="nav-link px-2 text-white">Skills</a>
-                            </li>
-                            <li><a href="#" class="nav-link px-2 text-white">Projects</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+                            <NavButton link="#" buttonName="Home" />
+                            <NavButton link="#" buttonName="Skills" />
+                            <NavButton link="#" buttonName="Projects" />
+                            <NavButton link="#" buttonName="About" />
+                            <NavButton link="#" buttonName="Contact" />
                         </ul>
                     </div>
                 </div>
