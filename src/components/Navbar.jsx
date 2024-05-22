@@ -1,4 +1,5 @@
 import NavButton from "./NavButton";
+import NAVBAR_ITEM from "../../data";
 
 export default function Navbar() {
     return (
@@ -11,11 +12,14 @@ export default function Navbar() {
                         <ul
                             className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
                         >
-                            <NavButton link="#" buttonName="Home" />
-                            <NavButton link="#" buttonName="Skills" />
-                            <NavButton link="#" buttonName="Projects" />
-                            <NavButton link="#" buttonName="About" />
-                            <NavButton link="#" buttonName="Contact" />
+
+                            {
+                                NAVBAR_ITEM.map((item) => {
+                                    return (
+                                        <NavButton itemId={item.id} link={item.link}>{item.title}</NavButton>
+                                    );
+                                })
+                            }
                         </ul>
                     </div>
                 </div>
