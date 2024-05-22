@@ -1,13 +1,13 @@
 export default function Skills() {
     return (
         <section>
-            <div class="container px-4 py-5">
-                <h2 class="pb-2 ">SKILLS</h2>
+            <div className="container px-4 py-5">
+                <h2 className="pb-2 ">SKILLS</h2>
 
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div className="col">
+                        <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                                 <h3>Languages</h3>
                                 <ul>
                                     <li>HTML</li>
