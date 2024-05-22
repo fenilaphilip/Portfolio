@@ -1,4 +1,3 @@
-import NavButton from "./NavButton";
 import NAVBAR_ITEM from "../../data";
 
 export default function Navbar() {
@@ -16,7 +15,11 @@ export default function Navbar() {
                             {
                                 NAVBAR_ITEM.map((item) => {
                                     return (
-                                        <NavButton itemId={item.id} link={item.link}>{item.title}</NavButton>
+                                        <li key={item.id}>
+                                            <a href={item.link} className="nav-link px-2 text-white">
+                                                {item.title}
+                                            </a>
+                                        </li>
                                     );
                                 })
                             }

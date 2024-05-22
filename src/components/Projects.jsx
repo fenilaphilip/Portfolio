@@ -2,7 +2,7 @@ import Website from "./Website";
 
 export default function Projects() {
     return (
-        <section>
+        <section id="projects">
             <div className="container px-4 py-5">
                 <h2 className="pb-2 ">PROJECTS</h2>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 py-5">

@@ -2,8 +2,8 @@ import girlImg from "../media/girl.jpg";
 
 export default function HomePage() {
     return (
-        <section>
-            <div id="home" className="container">
+        <section id="home">
+            <div className="container">
                 <div className="row p-2 mt-5 ">
                     <div className="col-sm-12 col-lg-6">
                         <img src={girlImg} alt="photo of girl" width="500" height="800" />
