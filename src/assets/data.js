@@ -1,3 +1,6 @@
+import fenPhoto from "../media/fen.jpg";
+import CV from "../assets/CV.pdf";
+
 export const NAVBAR_ITEM = [
     { id: 1, link: "#home", title: "Home" },
     { id: 2, link: "#skills", title: "Skills" },
@@ -19,3 +22,14 @@ export const SKILLS = [
         names: ["VScode", "Git", "Github"]
     },
 ];
+
+export const PROFILE = {
+    photo: fenPhoto,
+    name: "Fenila Sosa Philip",
+    resume: CV,
+    intro: "I'm a self-taught Front-end Developer based in Berlin with a passion for technology, learning, and solving real - world problems through code.",
+    about: "",
+    mystory: ""
+}
+
+
