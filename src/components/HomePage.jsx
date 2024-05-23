@@ -23,6 +23,13 @@ export default function HomePage() {
                             for technology, learning, and solving real-world problems through
                             code.
                         </p>
+                        <div className="d-flex justify-content-between align-items-center">
+                            <div className="btn-group">
+                                <button type="button" className="btn btn-sm btn-outline-light me-3">RESUME</button>
+                                <button type="button" className="btn btn-sm btn-outline-light">Contact</button>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
