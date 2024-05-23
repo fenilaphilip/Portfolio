@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(18, 17, 23);
+  color: whitesmoke;
+}
+
+#menu {
+  background-color: rgb(18, 17, 23);
+}
+
+#introImg {
+  position: relative;
+  z-index: 1;
+}
+
+#fenPhoto {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-top: 100px;
+}
+
+#intro {
+  height: 100vh;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #introImg {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #myPhoto {
+    display: none;
+  }
+}
