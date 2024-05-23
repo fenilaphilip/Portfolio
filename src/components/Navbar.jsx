@@ -1,8 +1,8 @@
-import NAVBAR_ITEM from "../../data";
+import { NAVBAR_ITEM } from "../../data";
 
 export default function Navbar() {
     return (
-        <section>
+        <section id="menu" className="fixed-top">
             <header className="p-3">
                 <div className="container">
                     <div

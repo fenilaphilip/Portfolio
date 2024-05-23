@@ -1,4 +1,4 @@
-const NAVBAR_ITEM = [
+export const NAVBAR_ITEM = [
     { id: 1, link: "#home", title: "Home" },
     { id: 2, link: "#skills", title: "Skills" },
     { id: 3, link: "#projects", title: "Projects" },
@@ -8,17 +8,17 @@ const NAVBAR_ITEM = [
 
 export const SKILLS = [
     {
-        id: 1, title: "Languages",
-        names: ["HTML", "CSS", "JavaScript"]
+        title: "Languages",
+        names: ["HTML", "CSS", "JavaScript", "TypeScript", "SQL"]
     },
     {
-        id: 2, title: "Frameworks / Libraries",
-        names: ["Bootstrap", "Tailwind", "React", "Jquery"]
+        title: "Frameworks / Libraries",
+        names: ["Bootstrap", "Tailwind", "React", "Jquery", "Node.js", "Express.js", "Npm"]
     },
     {
-        id: 3, title: "Tools",
+        title: "Tools",
         names: ["VScode", "Git", "Github"]
     },
 ];
 
-export default NAVBAR_ITEM;
+// export default NAVBAR_ITEM;

@@ -4,7 +4,7 @@ export default function AboutMe() {
     return (
         <section id="about">
             <div className="container px-4 py-5">
-                <h2 className="pb-2 ">ABOUT ME</h2>
+                <h2 className="mt-5 pb-2 text-center">ABOUT ME</h2>
                 <div className="row pt-5 mt-5">
                     <div className="col-sm-12 col-lg-6">
                         <img src={FenPhoto} alt="photo of Fenila" width={250} height={300} />
