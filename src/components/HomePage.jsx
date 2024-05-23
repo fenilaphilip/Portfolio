@@ -1,5 +1,6 @@
 import girlImg from "../media/girl.jpg";
 import FenPhoto from "../media/fen.jpg";
+import CV from "../assets/CV.pdf";
 
 export default function HomePage() {
     return (
@@ -25,8 +26,8 @@ export default function HomePage() {
                         </p>
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="btn-group">
-                                <button type="button" className="btn btn-sm btn-outline-light me-3">RESUME</button>
-                                <button type="button" className="btn btn-sm btn-outline-light">Contact</button>
+                                <a href={CV} className="btn btn-sm btn-outline-light me-3" target="_blank" download>RESUME</a>
+                                <button type="button" className="btn btn-sm btn-outline-light">CONTACT</button>
                             </div>
 
                         </div>

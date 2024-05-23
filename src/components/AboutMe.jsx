@@ -1,4 +1,5 @@
 import FenPhoto from "../media/fen.jpg";
+import CV from "../assets/CV.pdf";
 
 export default function AboutMe() {
     return (
@@ -26,10 +27,7 @@ export default function AboutMe() {
                             </li>
                         </ul>
                         <div className="d-flex justify-content-between align-items-center">
-                            <div className="btn-group">
-                                <button type="button" className="btn btn-sm btn-outline-light">RESUME</button>
-                            </div>
-
+                            <a href={CV} className="btn btn-sm btn-outline-light me-3" target="_blank" download>RESUME</a>
                         </div>
                     </div>
                     <div className="mt-5 col-lg-6">

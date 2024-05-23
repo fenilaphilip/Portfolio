@@ -1,4 +1,4 @@
-import { NAVBAR_ITEM } from "../../data";
+import { NAVBAR_ITEM } from "../assets/data";
 
 export default function Navbar() {
     return (

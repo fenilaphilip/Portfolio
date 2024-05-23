@@ -1,4 +1,4 @@
-import { SKILLS } from "../../data.js";
+import { SKILLS } from "../assets/data";
 
 export default function Skills() {
     return (
