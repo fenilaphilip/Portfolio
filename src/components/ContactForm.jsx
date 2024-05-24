@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Modal from "./Modal";
+import { CONTACT_INFO } from "../assets/data";
 
 export default function ContactForm() {
     const modal = useRef();
@@ -13,18 +14,18 @@ export default function ContactForm() {
                 <div className="container" id="contact-popup">
                     <h1>FEEL FREE TO CONTACT</h1>
                     <ul className=" col-md-4 justify-content-end list-unstyled d-flex">
-                        <li className="ms-3">
-                            <a className="text-body-dark"
-                                href="https://github.com/fenilaphilip">
-                                Github
-                            </a>
-                        </li>
-                        <li className="ms-3">
-                            <a className="text-body-dark"
-                                href="https://www.linkedin.com/in/fenila-philip">
-                                Linkedin
-                            </a>
-                        </li>
+                        {
+                            CONTACT_INFO.map((contact) => {
+                                return (
+                                    <li className="ms-3">
+                                        <a className="text-body-light"
+                                            href={contact.link}>
+                                            {contact.name}
+                                        </a>
+                                    </li>
+                                );
+                            })
+                        }
                     </ul>
                     <div className="row">
                         <div className="col-md-6">

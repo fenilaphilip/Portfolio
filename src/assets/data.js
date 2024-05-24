@@ -30,6 +30,18 @@ export const PROFILE = {
     intro: "I'm a self-taught Front-end Developer based in Berlin with a passion for technology, learning, and solving real - world problems through code.",
     about: "",
     mystory: ""
-}
+};
+
+export const CONTACT_INFO = [
+    {
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/fenila-philip",
+    },
+    {
+        name: "Github",
+        link: "https://github.com/fenilaphilip",
+    }
+]
+
 
 
