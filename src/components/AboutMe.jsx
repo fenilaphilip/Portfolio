@@ -13,9 +13,6 @@ export default function AboutMe() {
                                 <h4>Fenila Sosa Philip</h4>
                             </li>
                             <li>
-                                She / Her
-                            </li>
-                            <li>
                                 Frontend Developer
                             </li>
                             <li>
@@ -30,7 +27,7 @@ export default function AboutMe() {
                         </div>
                     </div>
                     <div className="mt-5 col-lg-6">
-                        <p className="pt-5">
+                        <p className="p-2">
                             Amet justo donec enim diam vulputate ut pharetra sit. Nulla facilisi cras fermentum odio eu. Suspendisse sed nisi lacus sed viverra tellus in hac. Nulla aliquet porttitor lacus luctus accumsan. Pulvinar etiam non quam lacus. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. A lacus vestibulum sed arcu non. Cras fermentum odio eu feugiat
                         </p>
                         <hr />

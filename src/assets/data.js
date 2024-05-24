@@ -8,20 +8,6 @@ export const NAVBAR_ITEM = [
     { id: 4, link: "#about", title: "About" },
 ];
 
-export const SKILLS = [
-    {
-        title: "Languages",
-        names: ["HTML", "CSS", "JavaScript", "TypeScript", "SQL"]
-    },
-    {
-        title: "Frameworks / Libraries",
-        names: ["Bootstrap", "Tailwind", "React", "Jquery", "Node.js", "Express.js", "Npm"]
-    },
-    {
-        title: "Tools",
-        names: ["VScode", "Git", "Github"]
-    },
-];
 
 export const PROFILE = {
     photo: fenPhoto,

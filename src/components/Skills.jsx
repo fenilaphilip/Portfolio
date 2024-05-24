@@ -1,4 +1,4 @@
-import { SKILLS } from "../assets/data";
+import SKILLS from "../assets/skills.js";
 
 export default function Skills() {
     return (
@@ -14,7 +14,13 @@ export default function Skills() {
                                         <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                                             <h3>{item.title}</h3>
                                             <ul>
-                                                {item.names.map((name) => <li key={name}>{name}</li>)}
+                                                {item.skills.map((skill) => {
+                                                    return (
+                                                        <li key={skill.name}>{skill.name}</li>
+                                                    )
+                                                }
+
+                                                )}
                                             </ul>
                                         </div>
                                     </div>
