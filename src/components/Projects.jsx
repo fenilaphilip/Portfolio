@@ -7,9 +7,6 @@ export default function Projects() {
                 <h2 className="mt-5 pb-2 text-center">PROJECTS</h2>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 py-5">
                     <Website />
-                    <Website />
-                    <Website />
-                    <Website />
                 </div>
                 <div className="d-flex  justify-content-end me-5">
                     <div className="btn-group">
