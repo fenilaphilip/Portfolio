@@ -42,9 +42,17 @@ body {
   color: black;
 }
 
+.card-text {
+  min-height: 120px;
+}
+
 @media only screen and (max-width: 600px) {
   #introImg {
     display: none;
+  }
+
+  .card-text {
+    height: auto;
   }
 }
 
