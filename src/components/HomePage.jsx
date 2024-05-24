@@ -1,7 +1,9 @@
 import girlImg from "../media/girl.jpg";
 import { PROFILE } from "../assets/data";
+import ContactForm from "./ContactForm";
 
 export default function HomePage() {
+
     return (
         <section id="home">
             <div className="container">
@@ -24,7 +26,7 @@ export default function HomePage() {
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="btn-group">
                                 <a href={PROFILE.resume} className="btn btn-sm btn-outline-light me-3" target="_blank" download>RESUME</a>
-                                <button type="button" className="btn btn-sm btn-outline-light">CONTACT</button>
+                                <ContactForm />
                             </div>
 
                         </div>
