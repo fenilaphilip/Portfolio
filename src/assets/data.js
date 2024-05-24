@@ -2,10 +2,9 @@ import fenPhoto from "../media/fen.jpg";
 import CV from "../assets/CV.pdf";
 
 export const NAVBAR_ITEM = [
-    { id: 1, link: "#home", title: "Home" },
-    { id: 2, link: "#skills", title: "Skills" },
-    { id: 3, link: "#projects", title: "Projects" },
-    { id: 4, link: "#about", title: "About" },
+    { id: 1, link: "#skills", title: "Skills" },
+    { id: 2, link: "#projects", title: "Projects" },
+    { id: 3, link: "#about", title: "About" },
 ];
 
 
