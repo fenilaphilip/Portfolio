@@ -11,7 +11,7 @@ export default function Contact() {
                     {
                         CONTACT_INFO.map((contact) => {
                             return (
-                                <li className="ms-3">
+                                <li className="ms-3" key={contact.name}>
                                     <a className="text-body-light"
                                         href={contact.link}>
                                         {contact.name}

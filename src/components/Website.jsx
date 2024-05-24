@@ -6,7 +6,7 @@ export default function Website() {
             {
                 MY_WORKS.map((project) => {
                     return (
-                        <div className="p-3">
+                        <div className="p-3" key={project.id}>
                             <div className="card shadow-sm p-2">
                                 <img src={project.img} alt={project.img_alt} width="100%" height="300" />
                                 <div className="card-body ">

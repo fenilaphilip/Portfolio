@@ -17,7 +17,7 @@ export default function ContactForm() {
                         {
                             CONTACT_INFO.map((contact) => {
                                 return (
-                                    <li className="ms-3">
+                                    <li className="ms-3" key={contact.name}>
                                         <a className="text-body-light"
                                             href={contact.link}>
                                             {contact.name}
@@ -53,8 +53,8 @@ export default function ContactForm() {
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label htmlFor="form_need">Please specify your need *</label>
-                                <select id="form_need" name="need" className="form-control" required="required" data-error="Please specify your need.">
-                                    <option defaultValue=" " selected disabled>--SELECT</option>
+                                <select id="form_need" name="need" className="form-control" required="required" data-error="Please specify your need." defaultValue="--SELECT">
+                                    <option defaultValue=" " disabled>--SELECT</option>
                                     <option >Hire</option>
                                     <option >Collabrate</option>
                                     <option >Freelance</option>
