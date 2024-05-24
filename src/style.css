@@ -46,6 +46,16 @@ body {
   min-height: 120px;
 }
 
+#contact-popup {
+  position: relative;
+  top: 100px;
+
+}
+
+#contact-popup>* {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   #introImg {
     display: none;

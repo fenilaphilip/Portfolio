@@ -9,8 +9,23 @@ export default function ContactForm() {
     }
     return (
         <>
-            <Modal ref={modal}>
-                <div>
+            <Modal ref={modal} >
+                <div className="container" id="contact-popup">
+                    <h1>FEEL FREE TO CONTACT</h1>
+                    <ul className=" col-md-4 justify-content-end list-unstyled d-flex">
+                        <li className="ms-3">
+                            <a className="text-body-dark"
+                                href="https://github.com/fenilaphilip">
+                                Github
+                            </a>
+                        </li>
+                        <li className="ms-3">
+                            <a className="text-body-dark"
+                                href="https://www.linkedin.com/in/fenila-philip">
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="form-group">
@@ -55,13 +70,21 @@ export default function ContactForm() {
                             </div>
 
                         </div>
-                        <div className="col-md-12">
-
-                            <input type="submit" className="btn btn-success btn-send  pt-2 btn-block
+                        <div className="col-md-12 ">
+                            <input type="submit" className="btn btn-info btn-send mt-5 pt-2 btn-block
                             " value="Send Message" />
 
                         </div>
                     </div>
+                    <form
+                        method="dialog"
+                        className="mt-4 d-flex justify-content-end"
+                    >
+                        <div className="btn-group">
+                            <button className="btn btn-sm btn-outline-dark me-3">Close</button>
+                        </div>
+
+                    </form>
                 </div>
             </Modal >
             <button
