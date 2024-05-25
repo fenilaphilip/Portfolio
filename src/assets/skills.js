@@ -1,26 +1,28 @@
+import { FaHtml5 } from "react-icons/fa";
+
 const SKILLS = [
     {
         title: "Languages",
         skills: [
             {
-                symbol: "",
-                name: "HTML",
+                symbol: FaHtml5,
+                name: " HTML",
             },
             {
                 symbol: "",
-                name: "CSS",
+                name: " CSS",
             },
             {
                 symbol: "",
-                name: "JavaScript",
+                name: " JavaScript",
             },
             {
                 symbol: "",
-                name: "TypeScript",
+                name: " TypeScript",
             },
             {
                 symbol: "",
-                name: "SQL",
+                name: " SQL",
             }
         ]
     },
@@ -29,7 +31,7 @@ const SKILLS = [
         skills: [
             {
                 symbol: "",
-                name: "Bootstrap"
+                name: " Bootstrap"
             },
             {
                 symbol: "",

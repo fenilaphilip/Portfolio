@@ -11,11 +11,15 @@ export const NAVBAR_ITEM = [
 export const PROFILE = {
     photo: fenPhoto,
     name: "Fenila Sosa Philip",
+    job: "Frontend Developer",
     resume: CV,
-    intro: "I'm a self-taught Front-end Developer based in Berlin with a passion for technology, learning, and solving real - world problems through code.",
+    intro: "I'm a self-taught Frontend Developer based in Berlin with a passion for technology, and solving real world problems with tech. I’m always looking forward to learn more and polish my software development skills.",
+    dream: "I love to work on Frontend Development, Webapp development, and Responsive-design.",
     about: "",
     mystory: ""
 };
+
+export const SERVICES = ["Frontend Development", "Backend Development", "App development", "Responsive-design"]
 
 export const CONTACT_INFO = [
     {
