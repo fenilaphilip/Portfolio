@@ -2,6 +2,7 @@ import weather from "../media/weather.png";
 import dictionary from "../media/dictionary.png";
 import investmentCalculator from "../media/investmentCalculator.png";
 import boutique from "../media/boutique.png";
+import placePicker from "../media/placePicker.png";
 
 const MY_WORKS = [
     {
@@ -36,6 +37,14 @@ const MY_WORKS = [
         description: "A demo e-commerce store built with vanilla JavaScript, React, Redux and Tailwind CSS. You can select multiple numbers of clothes. Adding them to cart, removing them from cart, decreasing and increasing the cart amount and calculating the total cost of the cart ",
         link: "https://master--dazzling-dodol-f7d555.netlify.app/",
     },
+    {
+        id: 5,
+        caption: "PLACE PICKER",
+        img: placePicker,
+        img_alt: "app view",
+        description: " The website which helps users to choose the places where to visit in the future.",
+        link: "https://master--grand-lily-2ee416.netlify.app/",
+    }
 ]
 
 export default MY_WORKS;
