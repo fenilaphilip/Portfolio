@@ -3,6 +3,7 @@ import dictionary from "../media/dictionary.png";
 import investmentCalculator from "../media/investmentCalculator.png";
 import boutique from "../media/boutique.png";
 import placePicker from "../media/placePicker.png";
+import ticTacToe from "../media/tic-tac-toe.png";
 
 const MY_WORKS = [
     {
@@ -44,7 +45,15 @@ const MY_WORKS = [
         img_alt: "app view",
         description: " The website which helps users to choose the places where to visit in the future.",
         link: "https://master--grand-lily-2ee416.netlify.app/",
-    }
+    },
+    {
+        id: 6,
+        caption: "REACT TIC-TAC-TOE",
+        img: ticTacToe,
+        img_alt: "app view",
+        description: "Tic-Tac-Toe Game website is created using the fundamentals of React: components, props, and state.",
+        link: "https://main--marvelous-llama-ae7acc.netlify.app/",
+    },
 ]
 
 export default MY_WORKS;
