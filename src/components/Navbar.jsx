@@ -6,7 +6,7 @@ export default function Navbar() {
 
     return (
         <nav id="menu" className="navbar navbar-expand-md navbar-dark fixed-top" >
-            <div className="container-fluid">
+            <div className="container">
                 <a className="navbar-brand mx-2 me-3" href="#home">
                     f_<FaCode />_p
                 </a>
