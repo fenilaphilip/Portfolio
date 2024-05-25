@@ -26,16 +26,15 @@ export default function AboutMe() {
                             <a href={PROFILE.resume} className="btn btn-sm btn-outline-dark me-3" target="_blank" download>RESUME</a>
                         </div>
                     </div>
-                    <div className="mt-5 col-lg-8 text-dark">
-                        <p className="p-2">
-                            Amet justo donec enim diam vulputate ut pharetra sit. Nulla facilisi cras fermentum odio eu. Suspendisse sed nisi lacus sed viverra tellus in hac. Nulla aliquet porttitor lacus luctus accumsan. Pulvinar etiam non quam lacus. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. A lacus vestibulum sed arcu non. Cras fermentum odio eu feugiat
-                        </p>
+                    <div className="col-lg-8 text-dark">
                         <hr />
-                        <h4>Back story</h4>
-                        <p>
-                            Amet justo donec enim diam vulputate ut pharetra sit. Nulla facilisi cras fermentum odio eu. Suspendisse sed nisi lacus sed viverra tellus in hac. Nulla aliquet porttitor lacus luctus accumsan. Pulvinar etiam non quam lacus. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. A lacus vestibulum sed arcu non. Cras fermentum odio eu feugiat
-                        </p>
-
+                        {PROFILE.about.map(para => {
+                            return (
+                                <p className="p-2">
+                                    {para}
+                                </p>
+                            )
+                        })}
                     </div>
                 </div>
             </div>
