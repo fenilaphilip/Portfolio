@@ -1,5 +1,5 @@
 import fenPhoto from "../media/fen.jpg";
-import CV from "../assets/CV.pdf";
+import fenilaCV from "../assets/FenilaResume.pdf";
 
 export const NAVBAR_ITEM = [
     { id: 1, link: "#skills", title: "Skills" },
@@ -12,7 +12,7 @@ export const PROFILE = {
     photo: fenPhoto,
     name: "Fenila Sosa Philip",
     job: "Frontend Developer",
-    resume: CV,
+    resume: fenilaCV,
     intro: "I'm a self-taught Frontend Developer based in Berlin with a passion for technology, and solving real world problems with tech. I’m always looking forward to learn more and polish my software development skills.",
     dream: "I love to work on Frontend Development, Webapp development, and Responsive-design.",
     about: [
