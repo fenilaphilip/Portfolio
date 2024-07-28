@@ -25,8 +25,9 @@ export default function Navbar() {
                             NAVBAR_ITEM.map((item) => {
                                 return (
                                     <li className="topnav nav-item" key={item.id}>
-                                        <a href={item.link} className="nav-link  px-2">
+                                        <a href={item.link} className="nav-link  p-0 w-100">
                                             <span data-bs-toggle="collapse"
+                                                className="w-100 d-block p-2"
                                                 data-bs-target=".navbar-collapse.show"
                                             >
                                                 {item.title}

@@ -8,7 +8,7 @@ export default function Website() {
                     return (
                         <div className="p-3" key={project.id}>
                             <div className="card shadow-sm p-2">
-                                <img src={project.img} alt={project.img_alt} width="100%" height="300" />
+                                <img src={project.img} alt={project.img_alt} width="100%" />
                                 <div className="card-body ">
                                     <h3>{project.caption}</h3>
                                     <p className="card-text">{project.description}</p>

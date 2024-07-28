@@ -28,6 +28,11 @@ const SKILLS = [
                 symbol: "",
                 name: " SQL",
                 stars: 2
+            },
+            {
+                symbol: "",
+                name: " PostgreSQL",
+                stars: 2
             }
         ]
     },
