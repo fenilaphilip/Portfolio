@@ -7,11 +7,9 @@ body {
   background-color: rgb(18, 17, 23);
 }
 
-
 #skills,
 #about {
   background-color: rgb(255, 255, 255);
-
 }
 
 #introImg {
@@ -49,27 +47,37 @@ body {
   color: black;
 }
 
-.card-text {
-  min-height: 120px;
+.card {
+  min-height: 400px;
+  max-height: 400px;
+}
+
+#projectDescription {
+  display: inline-block;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#projectDescription + a {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -1px;
 }
 
 #contact-popup {
   position: relative;
   top: 100px;
-
 }
 
-#contact-popup>* {
+#contact-popup > * {
   margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
   #introImg {
     display: none;
-  }
-
-  .card-text {
-    height: auto;
   }
 }
 
