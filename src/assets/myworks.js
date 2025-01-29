@@ -72,7 +72,7 @@ const MY_WORKS = [
         caption: "WEATHER FORECAST",
         img: weatherForecast,
         img_alt: "app view",
-        description: "This App is developed completely using ECMAScript, Bootstrap and OpenWeather API.The date and time are displayed using Javascript built-in-functions. It shows the weather details for one week.",
+        description: "This website is developed completely using ECMAScript, Bootstrap and OpenWeather API. Displaying the data through the DOM manipulation. User can search city by entering the city name and displaying current temperature of city. Also it shows maximum and minimum temperature of the day and upcoming 5 days.",
         link: "https://tangerine-tanuki-6fca77.netlify.app/",
     },
 
