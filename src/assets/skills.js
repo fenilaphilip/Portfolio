@@ -26,14 +26,15 @@ const SKILLS = [
             },
             {
                 symbol: "",
-                name: " SQL",
-                stars: 2
+                name: " PHP",
+                stars: 4
             },
             {
                 symbol: "",
-                name: " PostgreSQL",
-                stars: 2
+                name: " SQL",
+                stars: 4
             }
+
         ]
     },
     {
@@ -73,6 +74,16 @@ const SKILLS = [
                 symbol: "",
                 name: "NPM",
                 stars: 3
+            },
+            {
+                symbol: "",
+                name: "Redux",
+                stars: 3
+            },
+            {
+                symbol: "",
+                name: " PostgreSQL",
+                stars: 2
             }
         ]
     },
@@ -97,6 +108,21 @@ const SKILLS = [
             {
                 symbol: "",
                 name: "postman",
+                stars: 4
+            },
+            {
+                symbol: "",
+                name: "Babel",
+                stars: 4
+            },
+            {
+                symbol: "",
+                name: "Vite",
+                stars: 4
+            },
+            {
+                symbol: "",
+                name: "Vim",
                 stars: 4
             }
         ]
