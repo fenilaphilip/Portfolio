@@ -6,10 +6,18 @@ import placePicker from "../media/placePicker.png";
 import ticTacToe from "../media/tic-tac-toe.png";
 import encoder from "../media/encoder.png";
 import weatherApp from "../media/weatherApp.png";
+import todolist from "../media/todolist.png";
 
 
 const MY_WORKS = [
-
+    {
+        id: 9,
+        caption: "Todo List",
+        img: todolist,
+        img_alt: "app view",
+        description: "Todo App allows to manage a list of tasks in a simple and effective way. It is created using React context API and Reducers. End to end testing is done using cypress",
+        link: "https://fenilaphilip.github.io/things-to-do/",
+    },
     {
         id: 1,
         caption: "WEATHER APP",
@@ -75,7 +83,6 @@ const MY_WORKS = [
         description: "This website is developed completely using ECMAScript, Bootstrap and OpenWeather API. Displaying the data through the DOM manipulation. User can search city by entering the city name and displaying current temperature of city. Also it shows maximum and minimum temperature of the day and upcoming 5 days.",
         link: "https://tangerine-tanuki-6fca77.netlify.app/",
     },
-
 
 ]
 
