@@ -72,6 +72,11 @@ const SKILLS = [
             },
             {
                 symbol: "",
+                name: " Cypress",
+                stars: 4
+            },
+            {
+                symbol: "",
                 name: "NPM",
                 stars: 3
             },
