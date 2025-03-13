@@ -1,0 +1,19 @@
+$primary: #803b7a;
+
+.navbar {
+  background-color: $primary;
+}
+
+.nav-link > h6 {
+  color: #d169ccf0;
+}
+
+.nav-link > h6:hover {
+  color: #e1e1e1;
+}
+
+#home > h1 {
+  color: #d169ccf0;
+}
+
+@import "bootstrap";
