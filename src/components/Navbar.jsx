@@ -4,7 +4,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="bubbles">
+            {/* <div className="bubbles">
                 <div className="bubble"></div>
                 <div className="bubble"></div>
                 <div className="bubble"></div>
@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className="bubble"></div>
                 <div className="bubble"></div>
                 <div className="bubble"></div>
-            </div>
+            </div> */}
             <nav className="navbar navbar-expand">
                 <div className="container justify-content-md-end">
                     <ul className="navbar-nav mx-5 gap-3" >

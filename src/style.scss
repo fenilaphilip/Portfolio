@@ -15,5 +15,8 @@ $primary: #803b7a;
 #home > h1 {
   color: #d169ccf0;
 }
+#homepageImg{
+  z-index: -2;
+}
 
 @import "bootstrap";

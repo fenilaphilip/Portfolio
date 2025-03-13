@@ -8,6 +8,7 @@
   overflow: hidden;
   border: 1px solid rgb(200, 140, 220);
   margin: auto;
+  z-index: -1;
 }
 
 .bubble {
