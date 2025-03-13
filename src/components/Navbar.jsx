@@ -31,29 +31,27 @@ export default function Navbar() {
                 <div className="bubble"></div>
                 <div className="bubble"></div>
             </div>
-            <nav className="navbar navbar-expand  p-1" style={{
-                backgroundColor: "#803b7a"
-            }}>
-                <div className="container justify-content-md-left ">
-                    <ul className="navbar-nav" >
+            <nav className="navbar navbar-expand">
+                <div className="container justify-content-md-end">
+                    <ul className="navbar-nav mx-5 gap-3" >
                         <li className="nav-item">
-                            <NavLink to="/" className="nav-link active" aria-current="page">
-                                Home
+                            <NavLink to="/" className="nav-link active p-0" aria-current="page">
+                                <h6><strong>Home</strong></h6>
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/about" className="nav-link">
-                                About
+                            <NavLink to="/about" className="nav-link p-0">
+                                <h6><strong>About</strong></h6>
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/projects" className="nav-link">
-                                Projects
+                            <NavLink to="/projects" className="nav-link p-0">
+                                <h6><strong>Projects</strong></h6>
                             </NavLink>
                         </li>
                         <li className="nav-item ">
-                            <NavLink to="/contact" className="nav-link" >
-                                Contact
+                            <NavLink to="/contact" className="nav-link p-0" >
+                                <h6><strong>Contact</strong></h6>
                             </NavLink>
                         </li>
                     </ul>

@@ -1,88 +1,11 @@
-body {
-  background-color: rgb(18, 17, 23);
-  color: whitesmoke;
+.navbar {
+  background-color: #803b7a;
 }
 
-#menu {
-  background-color: rgb(18, 17, 23);
+.nav-link > h6 {
+  color: #d169ccf0;
 }
 
-#skills,
-#about {
-  background-color: rgb(255, 255, 255);
-}
-
-#introImg {
-  position: relative;
-  z-index: 1;
-}
-
-#fenPhoto {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  margin-top: 100px;
-}
-
-#intro {
-  height: 100vh;
-}
-
-.topnav {
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.card {
-  min-height: 400px;
-  max-height: 400px;
-}
-
-#projectDescription {
-  display: inline-block;
-  width: 250px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-#projectDescription + a {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: -1px;
-}
-
-#contact-popup {
-  position: relative;
-  top: 100px;
-}
-
-#contact-popup > * {
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-  #introImg {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  #myPhoto {
-    display: none;
-  }
+.nav-link > h6:hover {
+  color: #e1e1e1;
 }
