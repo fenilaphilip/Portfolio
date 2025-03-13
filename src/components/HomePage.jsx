@@ -1,5 +1,6 @@
 import { PROFILE } from "../assets/data";
 import ContactForm from "./ContactForm";
+import { CONTACT_INFO } from "../assets/data";
 import programmingGirl from "../media/programmingGirl.jpg"
 
 export default function HomePage() {
@@ -24,6 +25,21 @@ export default function HomePage() {
                     <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden pt-0" id="homepageImg">
                         <img className="img-fluid rounded-lg-3" src={programmingGirl} alt="" width="720" />
                     </div>
+                </div>
+                <div className="d-flex px-5 m-2">
+                    <h5><stong>Connect:</stong></h5>
+                    {
+                        CONTACT_INFO.map((contact) => {
+                            return (
+                                <span className="ms-3" key={contact.name}>
+                                    <a className="text-body-light"
+                                        href={contact.link}>
+                                        <img /> {contact.name}
+                                    </a>
+                                </span>
+                            );
+                        })
+                    }
                 </div>
             </div>
             <div className="bubbles">
