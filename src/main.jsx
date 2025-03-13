@@ -5,7 +5,6 @@ import App from '../App.jsx'
 import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Projects from './components/Projects.jsx';
-import ContactForm from './components/ContactForm.jsx';
 
 const myRouter = createBrowserRouter([{
     Component: App,
@@ -22,10 +21,7 @@ const myRouter = createBrowserRouter([{
             path: "/projects",
             Component: Projects,
         },
-        {
-            path: "/contact",
-            Component: ContactForm,
-        }]
+    ]
 }]);
 
 

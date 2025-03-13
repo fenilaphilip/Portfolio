@@ -18,16 +18,15 @@ export default function HomePage() {
                             {PROFILE.intro}
                         </p>
                         <br />
-                        <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        {/* <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                             <ContactForm />
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden pt-0" id="homepageImg">
                         <img className="img-fluid rounded-lg-3" src={programmingGirl} alt="" width="720" />
                     </div>
                 </div>
-                <div className="d-flex px-5 m-2">
-                    <h5><stong>Connect:</stong></h5>
+                <div className="d-block px-5 m-2 p-2">
                     {
                         CONTACT_INFO.map((contact) => {
                             return (

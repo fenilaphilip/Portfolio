@@ -49,13 +49,7 @@ export default function Navbar() {
                                 <h6><strong>Projects</strong></h6>
                             </NavLink>
                         </li>
-                        <li className="nav-item ">
-                            <NavLink to="/contact" className="nav-link p-0" >
-                                <h6><strong>Contact</strong></h6>
-                            </NavLink>
-                        </li>
                     </ul>
-
                 </div>
             </nav >
         </>
