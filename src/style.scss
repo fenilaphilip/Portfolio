@@ -19,15 +19,15 @@ $primary: #803b7a;
   z-index: -2;
 }
 
-#about,#projects
+#about, #projects
   {
     background-color: #f6feff;
     background: #dd9dd971;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #fff,#d169cc7d);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, #fff,#d169cc6e); /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-    
-  }
+   }
+
+
 
 #about .about_img img
 {
@@ -43,4 +43,13 @@ $primary: #803b7a;
   border-radius:35px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+
+.card {
+ min-height: 400px;
+ max-height: 400px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
 @import "bootstrap";
