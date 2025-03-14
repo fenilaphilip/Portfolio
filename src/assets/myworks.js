@@ -7,12 +7,39 @@ import ticTacToe from "../media/tic-tac-toe.png";
 import encoder from "../media/encoder.png";
 import weatherApp from "../media/weatherApp.png";
 import todolist from "../media/todolist.png";
+import todos from "../media/todos.png"
 
 
 const MY_WORKS = [
     {
+        id: 10,
+        caption: "TODO PLANNER",
+        img: todos,
+        img_alt: "app view",
+        techStack: [{
+            src: "https://img.shields.io/badge/-Typescript-blue?logo=Typescript&logoColor=white&style=flat",
+            alt: "Typescript"
+        }, {
+            src: "https://img.shields.io/badge/-ReactJS-lightyellow?logo=react&logoColor=blue&style=flat",
+            alt: "React"
+        }, {
+            src: "https://img.shields.io/badge/-React%20Router-black?logo=reactRouter&logoColor=blue&style=flat",
+            alt: "React router"
+        },
+        {
+            src: "https://img.shields.io/badge/-Material%20UI-violet?logo=MUI&logoColor=blue&style=flat",
+            alt: "Material UI"
+        },
+        {
+            src: "https://img.shields.io/badge/-Cypress-98FB98?logo=Cypress&logoColor=black&style=flat",
+            alt: "Cypress"
+        }],
+        description: "Todos application built using React, Redux Toolkit, React Router and Material UI. These powerful combination of technologies offers a seamless and intuitive user experience, allowing you to efficiently manage your tasks.",
+        link: "https://deploy-preview-2--stellular-manatee-0253a4.netlify.app/",
+    },
+    {
         id: 9,
-        caption: "WEATHER APP",
+        caption: "WEATHER FORECAST",
         img: weatherApp,
         img_alt: "app view",
         techStack: [{
@@ -175,10 +202,10 @@ const MY_WORKS = [
             alt: "CSS3"
         },
         {
-            src: "https://img.shields.io/badge/-HTML5-DC143C?logo=HTML5&logoColor=white&style=flat",
-            alt: "HTML5"
+            src: "https://img.shields.io/badge/-Context%20API-DC143C?logo=api&logoColor=white&style=flat",
+            alt: "Context API"
         }],
-        description: "Todo App allows to manage a list of tasks in a simple and effective way. It is created using React context API and Reducers. End to end testing is done using cypress",
+        description: "Todo App allows to manage a list of tasks in a simple and effective way which want to complete on that day. It's a CRUD application - Create, Read, Update and Delete. It is created using React context API and Reducers. End to end testing is done using cypress. ",
         link: "https://fenilaphilip.github.io/things-to-do/",
     },
     {
@@ -207,7 +234,7 @@ const MY_WORKS = [
     },
     {
         id: 1,
-        caption: "WEATHER FORECAST",
+        caption: "WEATHER REPORT",
         img: weatherForecast,
         img_alt: "app view",
         techStack: [{
