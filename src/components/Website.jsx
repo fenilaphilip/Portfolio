@@ -8,7 +8,7 @@ export default function Website({ project }) {
     }
 
     return (
-        <div className="p-1" key={project.id}>
+        <div className="p-1" key={project.id} >
             {!toggleCard && (
                 <div className="card shadow-sm p-2">
                     <img src={project.img} alt={project.img_alt} width="100%" height="220" />
