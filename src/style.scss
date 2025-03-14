@@ -1,54 +1,54 @@
 $primary: #803b7a;
+$secondary :#fffcf2;
 
 .navbar {
   background-color: $primary;
 }
 
-.nav-link > h6 {
+.nav-link>h6 {
   color: #d169ccf0;
 }
 
-.nav-link > h6:hover {
+.nav-link>h6:hover {
   color: #e1e1e1;
 }
 
-#home > h1 {
+#home>h1 {
   color: #d169ccf0;
 }
-#homepageImg{
-  z-index: -2;
+
+#about {
+  background-color: #f6feff;
+  background: #dd9dd971;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fff, #d169cc7d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fff, #d169cc6e);
+  /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#about, #projects
-  {
-    background-color: #f6feff;
-    background: #dd9dd971;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #fff,#d169cc7d);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #fff,#d169cc6e); /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   }
+#projectbg{
+  z-index: -1;
+}
+
+#about .about_img img {
+  max-width: 80%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 
-
-#about .about_img img
-{
-    max-width:80%;
-	  border-radius:15px;
-    box-shadow:0 16px 28px 0 rgba(8,56,103,.5);
-  }
-
- 
-#about .content 
-{
-  background-color:white;
-  border-radius:35px;
+#about .content {
+  background-color: white;
+  border-radius: 35px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
 .card {
- min-height: 400px;
- max-height: 400px;
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-height: 400px;
+  max-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.934) 0px 3px 8px;
 }
 
 
