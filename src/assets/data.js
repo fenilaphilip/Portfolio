@@ -1,12 +1,6 @@
 import fenPhoto from "../media/fen.jpg";
 import fenilaCV from "../assets/FenilaResume.pdf";
 
-export const NAVBAR_ITEM = [
-    { id: 1, link: "#skills", title: "Skills" },
-    { id: 2, link: "#projects", title: "Projects" },
-    { id: 3, link: "#about", title: "About" },
-];
-
 
 export const PROFILE = {
     photo: fenPhoto,
