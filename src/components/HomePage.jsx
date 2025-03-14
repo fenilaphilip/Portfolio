@@ -1,10 +1,32 @@
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
 import { PROFILE } from "../assets/data";
-import ContactForm from "./ContactForm";
 import { CONTACT_INFO } from "../assets/data";
 import programmingGirl from "../media/programmingGirl.jpg"
 
 export default function HomePage() {
+    const textRef = useRef(null);
 
+    useEffect(() => {
+        // Initialize Typed.js once the component is mounted
+        const toRotate = ["PASSIONATE", "CREATIVE"];
+        const options = {
+            strings: toRotate,
+            typeSpeed: 140, // typing speed in milliseconds
+            backSpeed: 25, // backspacing speed in milliseconds
+            startDelay: 1000, // delay before typing starts in milliseconds
+            backDelay: 1000, // delay before backspacing starts in milliseconds
+            loop: true, // loop the animation indefinitely
+            showCursor: false,
+        };
+
+        const typed = new Typed(textRef.current, options);
+
+        // Cleanup function
+        return () => {
+            typed.destroy(); // destroy Typed.js instance when the component unmounts
+        };
+    }, [])
     return (
         <section id="home" >
             <div className="container">
@@ -12,15 +34,17 @@ export default function HomePage() {
                     <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
                         <h1 className="display-4 fw-bold lh-1 text-primary">{PROFILE.name}</h1>
                         <br />
-                        <h4 >{PROFILE.job}</h4>
+                        <h4 ><span ref={textRef} className="text-primary"></span> {PROFILE.job}</h4>
                         <hr />
                         <p className="lead">
                             {PROFILE.intro}
                         </p>
                         <br />
-                        {/* <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                            <ContactForm />
-                        </div> */}
+                        <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                            <div className="d-flex justify-content-between align-items-center">
+                                <a href={PROFILE.resume} className="btn btn-sm btn-outline-primary me-3" target="_blank" download> DOWNLOAD RESUME</a>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden pt-0" id="homepageImg">
                         <img className="img-fluid rounded-lg-3" src={programmingGirl} alt="" width="720" />
@@ -40,33 +64,6 @@ export default function HomePage() {
                         })
                     }
                 </div>
-            </div>
-            <div className="bubbles">
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
             </div>
         </section >
     )
