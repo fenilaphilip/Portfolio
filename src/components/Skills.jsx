@@ -1,12 +1,31 @@
 import SKILLS from "../assets/skills.js";
-
+import softskills from "../media/softskills.jpg"
 
 export default function Skills() {
     return (
         <section id="skills">
             <div className="container">
-                <h2 className="mt-5 pb-2 text-center text-dark">💻 Tech Stack I use</h2>
-                <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div className="row align-items-center">
+                    <div className="col-lg-5">
+                        <img src={softskills} className="img-fluid" alt="soft skills" id="softskillspic" />
+                    </div>
+                    <div className="col-lg-7">
+                        <h1 className="text-center text-primary heading"><span>Tools & Technology</span></h1>
+                        <div className="row">
+                            <div className="d-flex">
+                                {SKILLS.map((skill) => <img className="m-1 p-1" src={skill.symbol} width="80" height="80" />)}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section >
+
+    )
+}
+
+
+{/* <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                     {
                         SKILLS.map((item) => {
                             return (
@@ -32,13 +51,8 @@ export default function Skills() {
                         })
                     }
 
-                </div>
-            </div>
-            {/* <div className="container px-4 py-5">
-                <h1>💻 Tech Stack: </h1>
-                <img src="https://skillicons.dev/icons?i=ts,js,php,html,css,react,redux,bootstrap,materialui,tailwind,nextjs,jquery,git,npm,nodejs,express,vscode,jest,cypress,babel,github,postgres,mongodb,mysql,postman,vite,figma,sass,vim,&theme=dark" />
-            </div> */}
-        </section >
+                </div> */}
 
-    )
-}
+{/* <div className="col-lg-7">
+                         <img src="https://skillicons.dev/icons?i=ts,js,php,html,css,react,redux,bootstrap,materialui,tailwind,nextjs,jquery,git,npm,nodejs,express,vscode,jest,cypress,babel,github,postgres,mongodb,mysql,postman,vite,figma,sass,vim,&theme=dark" />
+                    </div> */}
