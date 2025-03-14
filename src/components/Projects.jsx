@@ -1,6 +1,7 @@
 import Website from "./Website";
 import backgroundImg from "../media/background.jpg";
 import MY_WORKS from "../assets/myworks"
+import Footer from "./Footer";
 
 export default function Projects() {
     return (
@@ -18,6 +19,7 @@ export default function Projects() {
                     })}
                 </div>
             </div>
+            <Footer />
         </section>
     )
 }
