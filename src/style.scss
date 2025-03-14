@@ -1,5 +1,5 @@
 $primary: #803b7a;
-$secondary :#fffcf2;
+$secondary :#ffcae9;
 
 .navbar {
   background-color: $primary;
@@ -16,32 +16,23 @@ $secondary :#fffcf2;
 #home>h1 {
   color: #d169ccf0;
 }
+.heading {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
 
-#about {
-  background-color: #f6feff;
-  background: #dd9dd971;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #fff, #d169cc7d);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #fff, #d169cc6e);
-  /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.heading span { 
+   background:#fff; 
+   padding:0 10px; 
 }
 
-#projectbg{
-  z-index: -1;
-}
-
-#about .about_img img {
-  max-width: 80%;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-
-#about .content {
-  background-color: white;
-  border-radius: 35px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+@media screen and (max-width : 992px) {
+  #techskillpic{
+    display: none;
+  }  
 }
 
 
