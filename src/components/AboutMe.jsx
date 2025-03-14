@@ -1,6 +1,7 @@
 import { PROFILE } from "../assets/data"
 import Skills from "./Skills";
-import photogirl from "../media/girl.jpg"
+import Footer from "./Footer";
+import softskills from "../media/softskills.jpg"
 
 export default function AboutMe() {
 
@@ -21,11 +22,12 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div className="col-lg-5">
-                        <img src={photogirl} className="img-fluid" alt="my photo" />
+                        <img src={softskills} className="img-fluid" alt="my photo" />
                     </div>
                 </div>
             </div>
             <Skills />
+            <Footer />
         </section>
     )
 }
