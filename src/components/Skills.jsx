@@ -11,9 +11,9 @@ export default function Skills() {
                     </div>
                     <div className="col-lg-8">
                         <h1 className="text-center text-primary heading"><span>Tools & Technology</span></h1>
-                        <div className="row">
+                        <div className="row pt-3">
                             <div>
-                                {SKILLS.map((skill) => <img className="m-1 p-1" src={skill.symbol} alt={skill.name} width="80" height="80" />)}
+                                {SKILLS.map((skill) => <img className="m-1 p-1" src={skill.symbol} alt={skill.name} width="60" height="60" />)}
                             </div>
                         </div>
                     </div>
