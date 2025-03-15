@@ -1,21 +1,27 @@
 $primary: #803b7a;
-$secondary :#ffcae9;
+$secondary :#f8b2db;
 
-.navbar {
-  background-color: $primary;
+body {
+  padding-top: 40px;
 }
 
-.nav-link>h6 {
-  color: #d169ccf0;
+.nav-link>h5 {
+  color: $secondary;
 }
 
-.nav-link>h6:hover {
-  color: #e1e1e1;
+.nav-link>h5:hover {
+  color: #ffffff;
 }
 
-#home>h1 {
-  color: #d169ccf0;
+body .navbar-light .navbar-toggler {
+  color:#ffffff !important;
+  border-color: $secondary !important;
 }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(248, 178, 219, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
 .heading {
   width: 100%; 
   text-align: center; 

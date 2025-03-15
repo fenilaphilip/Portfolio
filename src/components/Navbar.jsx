@@ -4,52 +4,38 @@ export default function Navbar() {
 
     return (
         <>
-            {/* <div className="bubbles">
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-            </div> */}
-            <nav className="navbar navbar-expand">
-                <div className="container justify-content-md-end">
-                    <ul className="navbar-nav mx-5 gap-3" >
-                        <li className="nav-item">
-                            <NavLink to="/" className="nav-link active p-0" aria-current="page">
-                                <h6><strong>Home</strong></h6>
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/about" className="nav-link p-0">
-                                <h6><strong>About</strong></h6>
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/projects" className="nav-link p-0">
-                                <h6><strong>Projects</strong></h6>
-                            </NavLink>
-                        </li>
-                    </ul>
+            <nav className="navbar navbar-expand-sm fixed-top navbar-light bg-primary">
+                <div className="container">
+                    <h5 className="navbar-brand text-secondary">PORTFOLIO</h5>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-target="#navmenu"
+                        aria-controls="navmenu"
+                        data-bs-toggle="collapse"
+
+                    >
+                        <span className="navbar-toggler-icon text-secondary"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navmenu">
+                        <ul className="navbar-nav ms-auto" >
+                            <li className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                                <NavLink to="/" className="nav-link active p-0" aria-current="page">
+                                    <h5>HOME</h5>
+                                </NavLink>
+                            </li>
+                            <li className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                                <NavLink to="/about" className="nav-link p-0">
+                                    <h5>ABOUT</h5>
+                                </NavLink>
+                            </li>
+                            <li className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                                <NavLink to="/projects" className="nav-link p-0">
+                                    <h5>PROJECTS</h5>
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav >
         </>
