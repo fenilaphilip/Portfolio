@@ -9,7 +9,7 @@ export default function Projects() {
             <div className="container">
                 <div style={{ position: "relative", overflow: "hidden" }} className="row">
                     <img src={backgroundImg} alt="" className="img-fluid p-0" />
-                    <div style={{ position: "absolute", top: " 50%", left: "50%", transform: " translate(-50%, -50%)", color: "black", fontSize: "24px", fontWeight: "bold", textAlign: "center" }} >
+                    <div style={{ position: "absolute", top: " 50%", left: "50%", transform: " translate(-50%, -50%)", fontSize: "24px", fontWeight: "bold", textAlign: "center" }} >
                         <h2 className="text-primary"><em> Discover some of My works & Experiments </em></h2>
                     </div>
                 </div>
