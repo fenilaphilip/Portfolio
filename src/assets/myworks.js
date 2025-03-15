@@ -17,25 +17,26 @@ const MY_WORKS = [
         img: todos,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-Typescript-blue?logo=Typescript&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Typescript-blue?&style=flat",
             alt: "Typescript"
         }, {
-            src: "https://img.shields.io/badge/-ReactJS-lightyellow?logo=react&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-ReactJS-gray?&style=flat",
             alt: "React"
         }, {
-            src: "https://img.shields.io/badge/-React%20Router-black?logo=reactRouter&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-React%20Router-black?&style=flat",
             alt: "React router"
         },
         {
-            src: "https://img.shields.io/badge/-Material%20UI-violet?logo=MUI&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-Material%20UI-violet?&style=flat",
             alt: "Material UI"
         },
         {
-            src: "https://img.shields.io/badge/-Cypress-98FB98?logo=Cypress&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-Cypress-98FB98?&style=flat",
             alt: "Cypress"
         }],
         description: "Todos application built using React, Redux Toolkit, React Router and Material UI. These powerful combination of technologies offers a seamless and intuitive user experience, allowing you to efficiently manage your tasks.",
         link: "https://deploy-preview-2--stellular-manatee-0253a4.netlify.app/",
+        gitrepo: "https://github.com/fenilaphilip/todos"
     },
     {
         id: 9,
@@ -46,22 +47,23 @@ const MY_WORKS = [
             src: "https://img.shields.io/badge/-Open%20weather%20API-orange?&style=flat",
             alt: "Open Weather API"
         }, {
-            src: "https://img.shields.io/badge/-React-black?logo=react&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-React-black?&style=flat",
             alt: "React"
         }, {
-            src: "https://img.shields.io/badge/-ES6-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-ECMAScript-yellow?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-Axios-blue?logo=axios&logoColor=white&style=flat",
-            alt: "axios"
+            src: "https://img.shields.io/badge/-Bootstrap-blueviolet?&style=flat",
+            alt: "bootstrap"
         },
         {
-            src: "https://img.shields.io/badge/-Bootstrap-blueviolet?logo=bootstrap&logoColor=white&style=flat",
-            alt: "bootstrap"
+            src: "https://img.shields.io/badge/-Axios-blue?&style=flat",
+            alt: "axios"
         }],
         description: "A React Web App that utilizes the OpenWeatherMap API to get the current and 7-day weather forecast for a given location. Its displays maximum and minimum temperature of each day of the week as well as an hourly forecast of the day.",
         link: "https://weather.fenilas.com/",
+        gitrepo: "https://github.com/fenilaphilip/Weather-App"
     },
     {
         id: 8,
@@ -69,10 +71,10 @@ const MY_WORKS = [
         img: dictionary,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-React-black?logo=react&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-React-black?&style=flat",
             alt: "React"
         }, {
-            src: "https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-Javascript-yellow?&style=flat",
             alt: "Javascript"
         },
         {
@@ -80,15 +82,16 @@ const MY_WORKS = [
             alt: "External API"
         },
         {
-            src: "https://img.shields.io/badge/-Bootstrap-blueviolet?logo=bootstrap&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Bootstrap-blueviolet?&style=flat",
             alt: "bootstrap"
         },
         {
-            src: "https://img.shields.io/badge/-Axios-blue?logo=axios&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Axios-blue?&style=flat",
             alt: "axios"
         }],
         description: "The React Dictionary App is a web application that let users to look up the definition of a word. It displays word definitions, synonyms, antonyms, images and example sentences with the help of third-party API's.",
         link: "https://dictionary.fenilas.com/",
+        gitrepo: "https://github.com/fenilaphilip/Dictionary"
     },
     {
         id: 7,
@@ -99,19 +102,20 @@ const MY_WORKS = [
             src: "https://img.shields.io/badge/-React-black?logo=react&logoColor=blue&style=flat",
             alt: "React"
         }, {
-            src: "https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-ECMAScript-yellow?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-CSS3-blueviolet?logo=CSS3&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-CSS3-blueviolet?l&style=flat",
             alt: "CSS3"
         },
         {
-            src: "https://img.shields.io/badge/-HTML5-DC143C?logo=HTML5&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-HTML5-DC143C?&style=flat",
             alt: "HTML5"
         }],
         description: "A React App designed to easily assess the value of your investments over a specified period. With a user-friendly and straightforward interface, the app displays an investment value table for each year. ",
         link: "https://ic.fenilas.com/",
+        gitrepo: "https://github.com/fenilaphilip/Investment-Calc"
     },
 
     {
@@ -120,18 +124,19 @@ const MY_WORKS = [
         img: ticTacToe,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-React-black?logo=react&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-React-black?&style=flat",
             alt: "React"
         }, {
-            src: "https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-Javascript-bluegreen?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-CSS3-blueviolet?logo=CSS3&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-CSS3-blueviolet?&style=flat",
             alt: "CSS3"
         }],
         description: "Tic-Tac-Toe Game website is created using JavaScript with React framework.",
         link: "https://main--marvelous-llama-ae7acc.netlify.app/",
+        gitrepo: "https://github.com/fenilaphilip/Tic-tac-toe"
     },
     {
         id: 5,
@@ -139,23 +144,21 @@ const MY_WORKS = [
         img: encoder,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-Typescript-blue?logo=typescript&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Typescript-green?&style=flat",
             alt: "Typescript"
         }, {
-            src: "https://img.shields.io/badge/-TailwindCSS-black?logo=tailwindcss&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-TailwindCSS-black?&style=flat",
             alt: "context Api"
         }, {
-            src: "https://img.shields.io/badge/-React-lightyellow?logo=react&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-React-red?&style=flat",
             alt: "React"
         }, {
-            src: "https://img.shields.io/badge/-Context%20API-yellow?logo=api&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Context%20API-yellow?&style=flat",
             alt: "context Api"
-        }, {
-            src: "https://img.shields.io/badge/-Vite-violet?logo=vite&logoColor=white&style=flat",
-            alt: "Vite"
         }],
-        description: "Encoder is created with TypeScript, React, Tailwind CSS and Vite. Users can enter some text and encode it using URL encoding, Base 64 encoding, or generate a QR Code that can be scanned. History of all the previous usages are stored in local storage of quick access again.",
+        description: "Users can enter some text and encode it using URL encoding, Base 64 encoding, or generate a QR Code that can be scanned. History of all the previous usages are stored in local storage of quick access again.",
         link: "https://encoder.fenilas.com",
+        gitrepo: "https://github.com/fenilaphilip/Encode"
     },
     {
         id: 4,
@@ -163,22 +166,23 @@ const MY_WORKS = [
         img: boutique,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-React-black?logo=react&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-React-black?l&style=flat",
             alt: "React"
         },
         {
-            src: "https://img.shields.io/badge/-Context%20API-blue?logo=api&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Context%20API-blue?&style=flat",
             alt: "Context API"
         }, {
-            src: "https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-Vanilla%20JS-blueviolet?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-React%20Modal-green?logo=api&logoColor=white&style=flat",
-            alt: "Modal"
+            src: "https://img.shields.io/badge/-tailwind-green?&style=flat",
+            alt: "tailwind"
         }],
-        description: "A demo e-commerce store built with vanilla JavaScript, React and Tailwind CSS. You can select multiple numbers of clothes. Adding them to cart, removing them from cart, decreasing and increasing the cart amount and calculating the total cost of the cart. ",
+        description: "A demo e-commerce store built with vanilla JavaScript & React hooks. You can select multiple numbers of clothes. Adding them to cart, removing them from cart, decreasing and increasing the cart amount and calculating the total cost of the cart. ",
         link: "https://master--dazzling-dodol-f7d555.netlify.app/",
+        gitrepo: "https://github.com/fenilaphilip/elegant-boutique"
     },
     {
         id: 3,
@@ -186,27 +190,28 @@ const MY_WORKS = [
         img: todolist,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-ES6-blueviolet?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-ReactJS-blue?logo=react&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-ReactJS-black?logo=react?&tyle=flat",
             alt: "React"
         },
         {
-            src: "https://img.shields.io/badge/-Cypress-98FB98?logo=Cypress&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-Cypress-98FB98?&style=flat",
             alt: "Cypress"
         },
         {
-            src: "https://img.shields.io/badge/-CSS3-blueviolet?logo=CSS3&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-CSS3-yellow?&style=flat",
             alt: "CSS3"
         },
         {
-            src: "https://img.shields.io/badge/-Context%20API-DC143C?logo=api&logoColor=white&style=flat",
+            src: "https://img.shields.io/badge/-Context%20API-DC143C?&style=flat",
             alt: "Context API"
         }],
         description: "Todo App allows to manage a list of tasks in a simple and effective way which want to complete on that day. It's a CRUD application - Create, Read, Update and Delete. It is created using React context API and Reducers. End to end testing is done using cypress. ",
         link: "https://fenilaphilip.github.io/things-to-do/",
+        gitrepo: "https://github.com/fenilaphilip/things-to-do"
     },
     {
         id: 2,
@@ -214,23 +219,24 @@ const MY_WORKS = [
         img: placePicker,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-Javascript-yellow?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-Vite-violet?logo=vite&style=flat",
+            src: "https://img.shields.io/badge/-Vite-violet?&style=flat",
             alt: "vite"
         },
         {
-            src: "https://img.shields.io/badge/-React-black?logo=react&logoColor=blue&style=flat",
-            alt: "React"
+            src: "https://img.shields.io/badge/-React%20hooks-green?&style=flat",
+            alt: "React hooks"
         },
         {
-            src: "https://img.shields.io/badge/-Custom%20CSS-lightyellow?logo=CSS3&logoColor=blue&style=flat",
+            src: "https://img.shields.io/badge/-Custom%20CSS-lightyellow?&style=flat",
             alt: "Custom css"
         }],
         description: "A demo-website that sorts available tourist places according to users locations. It helps users to choose the places near by. This website is created using React, Javascript and styled by custom CSS.",
         link: "https://master--grand-lily-2ee416.netlify.app/",
+        gitrepo: "https://github.com/fenilaphilip/Place-picker"
     },
     {
         id: 1,
@@ -238,22 +244,19 @@ const MY_WORKS = [
         img: weatherForecast,
         img_alt: "app view",
         techStack: [{
-            src: "https://img.shields.io/badge/-Open%20weather%20API-orange?&style=flat",
+            src: "https://img.shields.io/badge/-Open%20weather%20API-red?&style=flat",
             alt: "Open Weather API"
         }, {
-            src: "https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=black&style=flat",
+            src: "https://img.shields.io/badge/-ECMAScript-yellow?&style=flat",
             alt: "Javascript"
         },
         {
-            src: "https://img.shields.io/badge/-HTML5-DC143C?logo=HTML5&logoColor=white&style=flat",
-            alt: "HTML5"
-        },
-        {
-            src: "https://img.shields.io/badge/-Custom%20CSS-blueviolet?logo=CSS3&logoColor=white&style=flat",
-            alt: "custom Css"
+            src: "https://img.shields.io/badge/-DOM%20manupulation-green?&style=flat",
+            alt: "Javascript"
         }],
-        description: "This website is developed completely using ECMAScript, Bootstrap and OpenWeather API. Displaying the data through the DOM manipulation. User can search city by entering the city name and displaying current temperature of city. Also it shows maximum and minimum temperature of the day and upcoming 5 days.",
+        description: "Displaying the data through the DOM manipulation. User can search city by entering the city name and displaying current temperature of city. Also it shows maximum and minimum temperature of the day and upcoming 5 days.",
         link: "https://tangerine-tanuki-6fca77.netlify.app/",
+        gitrepo: "https://github.com/fenilaphilip/Weather-Forecast"
     },
 
 ]

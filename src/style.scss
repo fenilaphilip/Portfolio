@@ -43,9 +43,13 @@ body .navbar-light .navbar-toggler {
 
 
 .card {
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 360px;
+  max-height: 360px;
   box-shadow: rgba(0, 0, 0, 0.934) 0px 3px 8px;
+}
+
+.gitrepoIcon:hover {
+  border: $primary !important;
 }
 
 
