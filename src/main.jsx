@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import App from '../App.jsx'
 import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
