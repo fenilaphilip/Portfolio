@@ -1,136 +1,114 @@
-import { FaHtml5 } from "react-icons/fa";
+
+const baseUrl = `https://skillicons.dev/icons?`;
+const theme = `theme=dark`;
 
 const SKILLS = [
     {
-        title: "Languages",
-        skills: [
-            {
-                symbol: FaHtml5,
-                name: " HTML",
-                stars: 5
-            },
-            {
-                symbol: "",
-                name: " CSS",
-                stars: 5
-            },
-            {
-                symbol: "",
-                name: " JavaScript",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: " TypeScript",
-                stars: 3
-            },
-            {
-                symbol: "",
-                name: " PHP",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: " SQL",
-                stars: 4
-            }
+        symbol: `${baseUrl}i=ts&${theme}`,
+        name: " TypeScript",
+    },
+    {
+        symbol: `${baseUrl}i=js&${theme}`,
+        name: " JavaScript",
+    },
+    {
+        symbol: `${baseUrl}i=react&${theme}`,
+        name: "React",
+    },
+    {
+        symbol: `${baseUrl}i=html&${theme}`,
+        name: " HTML",
+    },
+    {
+        symbol: `${baseUrl}i=materialui&${theme}`,
+        name: "Material UI",
+    },
+    {
+        symbol: `${baseUrl}i=css&${theme}`,
+        name: " CSS",
+    },
+    {
+        symbol: `${baseUrl}i=php&${theme}`,
+        name: " PHP",
+    },
+    // {
+    //     symbol: `${baseUrl}i=sql&${theme}`,
+    //     name: "SQL",
+    // },
 
-        ]
+    {
+        symbol: `${baseUrl}i=bootstrap&${theme}`,
+        name: " Bootstrap",
     },
     {
-        title: "Frameworks / Libraries",
-        skills: [
-            {
-                symbol: "",
-                name: " Bootstrap",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Tailwind",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "React",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Jquery",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Node.js",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Express.js",
-                stars: 3
-            },
-            {
-                symbol: "",
-                name: " Cypress",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "NPM",
-                stars: 3
-            },
-            {
-                symbol: "",
-                name: "Redux",
-                stars: 3
-            },
-            {
-                symbol: "",
-                name: " PostgreSQL",
-                stars: 2
-            }
-        ]
+        symbol: `${baseUrl}i=tailwind&${theme}`,
+        name: "Tailwind",
     },
     {
-        title: "Tools",
-        skills: [
-            {
-                symbol: "",
-                name: "VScode",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Git",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Github",
-                stars: 3
-            },
-            {
-                symbol: "",
-                name: "postman",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Babel",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Vite",
-                stars: 4
-            },
-            {
-                symbol: "",
-                name: "Vim",
-                stars: 4
-            }
-        ]
+        symbol: `${baseUrl}i=jquery&${theme}`,
+        name: "Jquery",
+    },
+    {
+        symbol: `${baseUrl}i=npm&theme=light`,
+        name: "NPM",
+        stars: 3
+    },
+    {
+        symbol: `${baseUrl}i=nodejs&${theme}`,
+        name: "Node.js",
+    },
+    {
+        symbol: `${baseUrl}i=redux&${theme}`,
+        name: "Redux",
+    },
+    {
+        symbol: `${baseUrl}i=express&${theme}`,
+        name: "Express.js",
+    },
+    {
+        symbol: `${baseUrl}i=cypress&theme=light`,
+        name: " Cypress",
+    },
+    {
+        symbol: `${baseUrl}i=vscode&${theme}`,
+        name: "VScode",
+        stars: 4
+    },
+    {
+        symbol: `${baseUrl}i=git&${theme}`,
+        name: "Git",
+    },
+    {
+        symbol: `${baseUrl}i=github&${theme}`,
+        name: "Github",
+    },
+    {
+        symbol: `${baseUrl}i=postman&${theme}`,
+        name: "postman",
+    },
+    {
+        symbol: `${baseUrl}i=babel&${theme}`,
+        name: "Babel",
+    },
+    {
+        symbol: `${baseUrl}i=vite&${theme}`,
+        name: "Vite",
+    },
+    {
+        symbol: `${baseUrl}i=vim&${theme}`,
+        name: "Vim",
+    },
+    {
+        symbol: `${baseUrl}i=postgres&theme=light`,
+        name: "PostgreSQL",
+    },
+    {
+        symbol: `${baseUrl}i=sass&theme=light`,
+        name: "Sass",
+    },
+    {
+        symbol: `${baseUrl}i=figma&theme=light`,
+        name: "figma",
     },
 ];
 

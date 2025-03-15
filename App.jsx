@@ -1,9 +1,6 @@
+import { Outlet } from "react-router";
 import Navbar from "./src/components/Navbar";
-import HomePage from "./src/components/HomePage";
-import Skills from "./src/components/Skills";
-import Projects from "./src/components/Projects";
-import AboutMe from "./src/components/AboutMe";
-import Contact from "./src/components/Contact";
+import './src/style.scss'
 
 
 export default function App() {
@@ -11,11 +8,7 @@ export default function App() {
         <>
             <Navbar />
             <main>
-                <HomePage />
-                <Skills />
-                <Projects />
-                <AboutMe />
-                <Contact />
+                <Outlet />
             </main>
         </>
     );

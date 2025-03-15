@@ -1,43 +1,34 @@
 import { PROFILE } from "../assets/data"
+import Skills from "./Skills";
+import Footer from "./Footer";
+import softskills from "../media/softskills.jpg"
 
 export default function AboutMe() {
+
     return (
         <section id="about">
-            <div className="container px-4 py-5">
-                <h2 className="mt-5 pb-2 text-center text-dark">ABOUT ME</h2>
-                <div className="row pt-3">
-                    <div className="col-sm-12 col-lg-3">
-                        <img src={PROFILE.photo} alt="photo of Fenila" width={250} height={300} />
-                        <ul className="pt-2 list-unstyled text-dark ">
-                            <li>
-                                <h4>Fenila Sosa Philip</h4>
-                            </li>
-                            <li>
-                                Frontend Developer
-                            </li>
-                            <li>
-                                &
-                            </li>
-                            <li>
-                                Civil Engineer
-                            </li>
-                        </ul>
-                        <div className="d-flex justify-content-between align-items-center">
-                            <a href={PROFILE.resume} className="btn btn-sm btn-outline-dark me-3" target="_blank" download>RESUME</a>
-                        </div>
+            <div className="container">
+                <div className="row align-items-center mt-5">
+                    <div className="col-lg-7">
+                        <h1 className="text-primary heading"> <span>About Me</span></h1>
+                        <p className="mb-5">
+                            {PROFILE.about.map(para => {
+                                return (
+                                    <p className="p-2">
+                                        {para}
+                                    </p>
+                                )
+                            })}
+                            <div className="p-2"><span className="text-primary">Languages spoken :</span> German, English</div>
+                        </p>
                     </div>
-                    <div className="col-lg-8 text-dark">
-                        <hr />
-                        {PROFILE.about.map(para => {
-                            return (
-                                <p className="p-2">
-                                    {para}
-                                </p>
-                            )
-                        })}
+                    <div className="col-lg-5">
+                        <img src={softskills} className="img-fluid" alt="my photo" />
                     </div>
                 </div>
             </div>
+            <Skills />
+            <Footer />
         </section>
     )
 }
