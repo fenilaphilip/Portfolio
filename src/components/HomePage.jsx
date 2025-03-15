@@ -9,12 +9,12 @@ export default function HomePage() {
 
     useEffect(() => {
         // Initialize Typed.js once the component is mounted
-        const toRotate = ["PASSIONATE", "CREATIVE"];
+        const toRotate = ["rontend Developer"];
         const options = {
             strings: toRotate,
             typeSpeed: 140, // typing speed in milliseconds
             backSpeed: 25, // backspacing speed in milliseconds
-            startDelay: 1000, // delay before typing starts in milliseconds
+            startDelay: 100, // delay before typing starts in milliseconds
             backDelay: 1000, // delay before backspacing starts in milliseconds
             loop: true, // loop the animation indefinitely
             showCursor: false,
@@ -34,7 +34,7 @@ export default function HomePage() {
                     <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
                         <h1 className="display-4 fw-bold lh-1 text-primary">{PROFILE.name}</h1>
                         <br />
-                        <h4 ><span ref={textRef} className="text-primary"></span> {PROFILE.job}</h4>
+                        <h4 className="text-primary">F<span ref={textRef} ></span></h4>
                         <hr />
                         <p className="lead">
                             {PROFILE.intro}
@@ -57,7 +57,7 @@ export default function HomePage() {
                                 <span className="ms-3" key={contact.name}>
                                     <a className="text-body-light"
                                         href={contact.link}>
-                                        <img /> {contact.name}
+                                        <img />{contact.name}
                                     </a>
                                 </span>
                             );

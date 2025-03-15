@@ -10,9 +10,8 @@ export const PROFILE = {
     intro: "I'm a self-taught Frontend Developer based in Berlin with a passion for technology, and solving real world problems with tech. I’m always looking forward to learn more and polish my software development skills.",
     dream: "I love to work on Frontend Development, Webapp development, and Responsive-design.",
     about: [
-        "I’m born and brought up in a small town in the state of Kerala located in the southern part of India.  After completing my bachelor’s degree in Civil Engineering, I worked as an Architectural Design Engineer for some time.",
-        "While looking for a career change as well as a new life in 2021, I met one of my friends who work as a Software Engineer. Talking with her about her job, I got curious about web development & coding. I started to learn web development myself and make small websites with the help of W3school.com.",
-        "Once I learned the basics of HTML, CSS and JavaScript, I also attended a boot camp for web-development. This helped me to learn how to build a high-quality webapps using React and typescript, while managing a larger code base with the help of git."
+        "I would describe myself as a passionate programming enthusiast - always seeking to improve my skills and knowledge through experimenting with different tools and technologies. I have been developing websites with React and JavaScript for about 2 years. I am proficient in building responsive web interfaces that are optimized for different screen sizes.",
+        "After moving to Germany, I wanted to learn the German language. Then I decided to make a website for learning German words and its articles. I started learning HTML, CSS, and JavaScript and finally made a German Artikel Quiz website. Then I attended a bootcamp for React-development, which helped me learn how to build high-quality webapps using React and how to manage larger code bases with the help of git."
     ]
 };
 

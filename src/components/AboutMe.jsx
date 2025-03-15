@@ -19,6 +19,7 @@ export default function AboutMe() {
                                     </p>
                                 )
                             })}
+                            <div className="p-2"><span className="text-primary">Languages spoken :</span> German, English</div>
                         </p>
                     </div>
                     <div className="col-lg-5">
