@@ -1,9 +1,6 @@
-import fenPhoto from "../media/fen.jpg";
 import fenilaCV from "../assets/FenilaResume.pdf";
 
-
 export const PROFILE = {
-    photo: fenPhoto,
     name: "Fenila Sosa Philip",
     job: "Frontend Developer",
     resume: fenilaCV,
