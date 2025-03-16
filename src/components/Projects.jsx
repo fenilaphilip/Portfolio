@@ -8,9 +8,9 @@ export default function Projects() {
         <section id="projects" >
             <div className="container">
                 <div style={{ position: "relative", overflow: "hidden" }} className="row">
-                    <img src={backgroundImg} alt="" className="img-fluid p-0" />
-                    <div style={{ position: "absolute", top: " 50%", left: "50%", transform: " translate(-50%, -50%)", fontSize: "24px", fontWeight: "bold", textAlign: "center" }} >
-                        <h2 className="text-primary"><em> Discover some of My works & Experiments </em></h2>
+                    <img src={backgroundImg} alt="" className="img-fluid p-0 project_bgImg" />
+                    <div style={{ position: "absolute", top: " 50%", left: "50%", transform: " translate(-50%, -50%)", fontSize: "30px", fontWeight: "bold", textAlign: "center" }} >
+                        <h2 className="text-primary m-2 project_bgImgtext"><em> Discover some of My works & Experiments </em></h2>
                     </div>
                 </div>
                 <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 pt-1  bg-secondary">
