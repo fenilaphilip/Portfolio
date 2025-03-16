@@ -48,9 +48,12 @@ body .navbar-light .navbar-toggler {
   box-shadow: rgba(0, 0, 0, 0.934) 0px 3px 8px;
 }
 
-.gitrepoIcon:hover {
-  border: $primary !important;
+@media screen and (max-width : 420px) {
+  .project_bgImgtext{
+     font-size: 20px;
 }
+}
+
 
 
 @import "bootstrap";
