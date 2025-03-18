@@ -14,7 +14,7 @@ body {
 }
 
 body .navbar-light .navbar-toggler {
-  color:#ffffff !important;
+  color: #ffffff !important;
   border-color: $secondary !important;
 }
 
@@ -22,23 +22,49 @@ body .navbar-light .navbar-toggler {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(248, 178, 219, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-.heading {
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 1px solid #000; 
-  line-height: 0.1em;
-  margin: 10px 0 20px; 
-} 
+.language-toggle {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5px 0.5px;
+  display: inline-block
+}
 
-.heading span { 
-   background:#fff; 
-   padding:0 10px; 
+.language-toggle [name="language"] {
+  display: none
+}
+
+.language-toggle input[type="radio"]+label {
+  background-color: white;
+  color: $secondary;
+  padding: 0px 4px;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.language-toggle input[type="radio"]:checked+label {
+  background-color: $primary;
+  color: $secondary;
+}
+
+
+.heading {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.heading span {
+  background: #fff;
+  padding: 0 10px;
 }
 
 @media screen and (max-width : 992px) {
-  #techskillpic{
+  #techskillpic {
     display: none;
-  }  
+  }
 }
 
 
@@ -49,9 +75,9 @@ body .navbar-light .navbar-toggler {
 }
 
 @media screen and (max-width : 420px) {
-  .project_bgImgtext{
-     font-size: 20px;
-}
+  .project_bgImgtext {
+    font-size: 20px;
+  }
 }
 
 

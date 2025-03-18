@@ -34,6 +34,15 @@ export default function Navbar() {
                                     <h5>PROJECTS</h5>
                                 </NavLink>
                             </li>
+                            <li className="nav-item p-2">
+                                <div className="language-toggle">
+                                    <input type="radio" id="language-toggle-english" name="language" value="EN" checked />
+                                    <label className="radio-button" for="language-toggle-english">EN</label>
+
+                                    <input type="radio" id="language-toggle-german" name="language" value="DE" />
+                                    <label className="radio-button" for="language-toggle-german"> DE</label>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
