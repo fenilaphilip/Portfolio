@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router";
 import { LanguageContext } from "../store/LanguageContext";
-import { NAVIGATION_EN } from "../assets/data.js";
+import { NAVIGATION_EN } from "../assets/dataEN.js";
 import { NAVIGATION_DE } from "../assets/dataDE.js";
 
 export default function Navbar() {
