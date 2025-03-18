@@ -11,7 +11,7 @@ export default function AboutMe() {
                 <div className="row align-items-center mt-5">
                     <div className="col-lg-7">
                         <h1 className="text-primary heading"> <span>About Me</span></h1>
-                        <p className="mb-5">
+                        <p>
                             {PROFILE.about.map(para => {
                                 return (
                                     <p className="p-2">

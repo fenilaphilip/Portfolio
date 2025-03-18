@@ -10,12 +10,9 @@ const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [language, setLanguage] = React.useState<string>("EN");
 
-  function toggleLanguage() {
-    if (language === "EN") {
-      setLanguage("DE");
-    } else {
-      setLanguage("EN");
-    }
+  function toggleLanguage(lang: string) {
+    console.log(`current language ${lang}`);
+    setLanguage(lang);
   }
 
   const ContextValue = {
