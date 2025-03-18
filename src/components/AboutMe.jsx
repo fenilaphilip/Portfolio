@@ -1,7 +1,7 @@
 import { PROFILE } from "../assets/data"
 import Skills from "./Skills";
 import Footer from "./Footer";
-import softskills from "../media/softskills.jpg"
+import softskills from "../media/skills.png"
 
 export default function AboutMe() {
 
