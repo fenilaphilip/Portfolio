@@ -1,4 +1,4 @@
-import { CONTACT_INFO } from "../assets/data";
+import { CONTACT_INFO } from "../assets/dataEN";
 
 export default function Footer() {
     const year = new Date().getFullYear();

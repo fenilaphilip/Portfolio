@@ -1,9 +1,14 @@
-import { PROFILE } from "../assets/data"
+import React, { useContext } from "react";
+import { LanguageContext } from "../store/LanguageContext";
+import { PROFILE_EN } from "../assets/dataEN"
+import { PROFILE_DE } from "../assets/dataDE"
 import Skills from "./Skills";
 import Footer from "./Footer";
 import softskills from "../media/skills.png"
 
 export default function AboutMe() {
+    const { currentLanguage } = useContext(LanguageContext);
+    const PROFILE = currentLanguage === "EN" ? PROFILE_EN : PROFILE_DE;
 
     return (
         <section id="about">

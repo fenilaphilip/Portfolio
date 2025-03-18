@@ -13,7 +13,7 @@ export const NAVIGATION_EN = [
         name: "Projects"
     }];
 
-export const PROFILE = {
+export const PROFILE_EN = {
     name: "Fenila Sosa Philip",
     job: "Frontend Developer",
     resume: fenilaCV,

@@ -47,19 +47,19 @@ export default function Navbar() {
                                         id="language-toggle-english"
                                         name="language"
                                         value="EN"
-                                        onClick={(event) => handleToggle(event.target.value)}
+                                        onChange={(event) => handleToggle(event.target.value)}
                                         checked={ENchecked}
                                     />
-                                    <label className="radio-button" for="language-toggle-english">EN</label>
+                                    <label className="radio-button" htmlFor="language-toggle-english">EN</label>
                                     <input
                                         type="radio"
                                         id="language-toggle-german"
                                         name="language"
                                         value="DE"
-                                        onClick={(event) => handleToggle(event.target.value)}
+                                        onChange={(event) => handleToggle(event.target.value)}
                                         checked={!ENchecked}
                                     />
-                                    <label className="radio-button" for="language-toggle-german">DE</label>
+                                    <label className="radio-button" htmlFor="language-toggle-german">DE</label>
                                 </div>
                             </li>
                         </ul>

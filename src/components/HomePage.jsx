@@ -1,12 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useContext } from "react";
 import Typed from "typed.js";
-import { PROFILE } from "../assets/data";
-import { CONTACT_INFO } from "../assets/data";
+import { LanguageContext } from "../store/LanguageContext"
+import { PROFILE_DE } from "../assets/dataDE";
+import { PROFILE_EN, CONTACT_INFO } from "../assets/dataEN";
 import programmingGirl from "../media/programmingGirl.jpg"
 
 export default function HomePage() {
     const textRef = useRef(null);
-
+    const { currentLanguage } = useContext(LanguageContext);
     useEffect(() => {
         // Initialize Typed.js once the component is mounted
         const toRotate = ["rontend Developer"];
@@ -26,7 +27,10 @@ export default function HomePage() {
         return () => {
             typed.destroy(); // destroy Typed.js instance when the component unmounts
         };
-    }, [])
+    }, []);
+
+    const PROFILE = currentLanguage === "EN" ? PROFILE_EN : PROFILE_DE;
+
     return (
         <section id="home" >
             <div className="container">
