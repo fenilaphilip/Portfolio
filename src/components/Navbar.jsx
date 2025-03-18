@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router";
 import { LanguageContext } from "../store/LanguageContext";
+import { NAVIGATION_EN } from "../assets/data.js";
+import { NAVIGATION_DE } from "../assets/dataDE.js";
 
 export default function Navbar() {
+    const [ENchecked, setENChecked] = useState(true);
     const { currentLanguage, toggleLanguage } = React.useContext(LanguageContext);
+    const NAVIGATION = currentLanguage === "EN" ? NAVIGATION_EN : NAVIGATION_DE;
+
+    function handleToggle(lang) {
+        toggleLanguage(lang);
+        setENChecked(!ENchecked);
+    }
 
     return (
         <>
@@ -22,21 +31,15 @@ export default function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navmenu">
                         <ul className="navbar-nav ms-auto" >
-                            <li key="home" className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-                                <NavLink to="/" className="nav-link active p-0" aria-current="page">
-                                    <h5>{currentLanguage === "EN" ? "Home" : "Startseite"}</h5>
-                                </NavLink>
-                            </li>
-                            <li key="about" className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-                                <NavLink to="/about" className="nav-link p-0">
-                                    <h5>{currentLanguage === "EN" ? "About" : "Über mich"}</h5>
-                                </NavLink>
-                            </li>
-                            <li key="projects" className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-                                <NavLink to="/projects" className="nav-link p-0">
-                                    <h5>{currentLanguage === "EN" ? "Projects" : "Projekte"}</h5>
-                                </NavLink>
-                            </li>
+                            {NAVIGATION.map((item) => {
+                                return (
+                                    <li key={item.name} className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                                        <NavLink to={item.link} className="nav-link active p-0" aria-current="page">
+                                            <h5>{item.name} </h5>
+                                        </NavLink>
+                                    </li>
+                                )
+                            })}
                             <li key="languageToggle" className="nav-item p-2">
                                 <div className="language-toggle">
                                     <input
@@ -44,17 +47,18 @@ export default function Navbar() {
                                         id="language-toggle-english"
                                         name="language"
                                         value="EN"
-                                        onClick={(event) => toggleLanguage(event.target.value)}
-                                        checked
+                                        onClick={(event) => handleToggle(event.target.value)}
+                                        checked={ENchecked}
                                     />
                                     <label className="radio-button" for="language-toggle-english">EN</label>
-
                                     <input
                                         type="radio"
                                         id="language-toggle-german"
                                         name="language"
                                         value="DE"
-                                        onClick={(event) => toggleLanguage(event.target.value)} />
+                                        onClick={(event) => handleToggle(event.target.value)}
+                                        checked={!ENchecked}
+                                    />
                                     <label className="radio-button" for="language-toggle-german">DE</label>
                                 </div>
                             </li>

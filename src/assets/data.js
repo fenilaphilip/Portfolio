@@ -1,5 +1,18 @@
 import fenilaCV from "../assets/FenilaResume.pdf";
 
+export const NAVIGATION_EN = [
+    {
+        link: "/",
+        name: "Home"
+    }, {
+        link: "/about",
+        name: "About"
+    },
+    {
+        link: "/projects",
+        name: "Projects"
+    }];
+
 export const PROFILE = {
     name: "Fenila Sosa Philip",
     job: "Frontend Developer",
