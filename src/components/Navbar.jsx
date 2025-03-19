@@ -34,7 +34,7 @@ export default function Navbar() {
                             {NAVIGATION.map((item) => {
                                 return (
                                     <li key={item.name} className="nav-item p-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-                                        <NavLink to={item.link} className="nav-link active p-0" aria-current="page">
+                                        <NavLink to={item.link} className="nav-link p-0" aria-current="page">
                                             <h5>{item.name} </h5>
                                         </NavLink>
                                     </li>
