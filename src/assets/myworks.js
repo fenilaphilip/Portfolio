@@ -186,7 +186,7 @@ const MY_WORKS = [
     },
     {
         id: 3,
-        caption: "Todo List",
+        caption: "TODO LIST",
         img: todolist,
         img_alt: "app view",
         techStack: [{

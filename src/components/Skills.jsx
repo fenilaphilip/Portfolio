@@ -1,7 +1,7 @@
 import SKILLS from "../assets/skills.js";
 import techskills from "../media/techskills.jpg"
 
-export default function Skills() {
+export default function Skills({ heading }) {
     return (
         <section id="skills">
             <div className="container">
@@ -10,7 +10,7 @@ export default function Skills() {
                         <img src={techskills} className="img-fluid" alt="soft skills" id="techskillpic" />
                     </div>
                     <div className="col-lg-8">
-                        <h1 className="text-center text-primary heading"><span>Tools & Technology</span></h1>
+                        <h1 className="text-center text-primary heading"><span>{heading}</span></h1>
                         <div className="row pt-3">
                             <div>
                                 {SKILLS.map((skill) => <img className="m-1 p-1" src={skill.symbol} alt={skill.name} width="60" height="60" />)}

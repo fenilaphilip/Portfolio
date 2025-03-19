@@ -8,9 +8,11 @@ import programmingGirl from "../media/programmingGirl.jpg"
 export default function HomePage() {
     const textRef = useRef(null);
     const { currentLanguage } = useContext(LanguageContext);
+    const PROFILE = currentLanguage === "EN" ? PROFILE_EN : PROFILE_DE;
+
     useEffect(() => {
         // Initialize Typed.js once the component is mounted
-        const toRotate = ["rontend Developer"];
+        const toRotate = [PROFILE.job.slice(1)];
         const options = {
             strings: toRotate,
             typeSpeed: 140, // typing speed in milliseconds
@@ -27,9 +29,7 @@ export default function HomePage() {
         return () => {
             typed.destroy(); // destroy Typed.js instance when the component unmounts
         };
-    }, []);
-
-    const PROFILE = currentLanguage === "EN" ? PROFILE_EN : PROFILE_DE;
+    }, [currentLanguage]);
 
     return (
         <section id="home" >
@@ -38,7 +38,7 @@ export default function HomePage() {
                     <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
                         <h1 className="display-4 fw-bold lh-1 text-primary">{PROFILE.name}</h1>
                         <br />
-                        <h4 className="text-primary">F<span ref={textRef} ></span></h4>
+                        <h4 className="text-primary">{PROFILE.job.slice(0, 1)}<span ref={textRef} ></span></h4>
                         <hr />
                         <p className="lead">
                             {PROFILE.intro}
@@ -46,7 +46,7 @@ export default function HomePage() {
                         <br />
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                             <div className="d-flex justify-content-between align-items-center">
-                                <a href={PROFILE.resume} className="btn btn-sm btn-outline-primary me-3" target="_blank" download> DOWNLOAD RESUME</a>
+                                <a href={PROFILE.resume} className="btn btn-sm btn-outline-primary me-3" target="_blank" download>{PROFILE.cvbtnCalled}</a>
                             </div>
                         </div>
                     </div>

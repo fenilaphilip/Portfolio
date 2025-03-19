@@ -1,12 +1,12 @@
 import { CONTACT_INFO } from "../assets/dataEN";
 
-export default function Footer() {
+export default function Footer({ copyright }) {
     const year = new Date().getFullYear();
     return (
         <section id="footer">
             <footer className="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
                 <div className="col-md-4 d-flex align-items-center">
-                    <span className="mb-3 mb-md-0 text-body-light">© {year} All rights reserved</span>
+                    <span className="mb-3 mb-md-0 text-body-light">© {year} {copyright}</span>
                 </div>
                 <ul className=" col-md-4 justify-content-end list-unstyled d-flex">
                     {
