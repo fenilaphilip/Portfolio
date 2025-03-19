@@ -1,4 +1,5 @@
 import fenilaCV from "../assets/FenilaResume.pdf";
+import softskillsEN from "../media/softskills_EN.jpg"
 
 export const NAVIGATION_EN = [
     {
@@ -24,7 +25,8 @@ export const PROFILE_EN = {
         "After moving to Germany, I wanted to learn the German language. Then I decided to make a website for learning German words and its articles. I started learning HTML, CSS, and JavaScript and finally made a German Artikel Quiz website. Then I attended a bootcamp for React-development, which helped me learn how to build high-quality webapps using React and how to manage larger code bases with the help of git."
     ],
     cvbtnCalled: "DOWNLOAD RESUME",
-    lang: ["English, ", "German"]
+    lang: ["English, ", "German"],
+    skillsImg: softskillsEN
 };
 
 export const HEADINGS_EN = {

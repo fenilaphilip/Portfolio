@@ -4,12 +4,12 @@ import { PROFILE_EN, HEADINGS_EN } from "../assets/dataEN"
 import { PROFILE_DE, HEADINGS_DE } from "../assets/dataDE"
 import Skills from "./Skills";
 import Footer from "./Footer";
-import softskills from "../media/skills.png"
 
 export default function AboutMe() {
     const { currentLanguage } = useContext(LanguageContext);
     const PROFILE = currentLanguage === "EN" ? PROFILE_EN : PROFILE_DE;
     const HEADINGS = currentLanguage === "EN" ? HEADINGS_EN : HEADINGS_DE;
+    const skillsImg = currentLanguage === "EN" ? PROFILE_EN.skillsImg : PROFILE_DE.skillsImg;
 
     return (
         <section id="about">
@@ -29,7 +29,7 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div className="col-lg-5">
-                        <img src={softskills} className="img-fluid" alt="my photo" />
+                        <img src={skillsImg} className="img-fluid" alt="soft skills" />
                     </div>
                 </div>
             </div>
