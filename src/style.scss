@@ -1,20 +1,23 @@
 $primary: #803b7a;
 $secondary :#f8b2db;
+$light : #ffffff;
 
 body {
   padding-top: 40px;
 }
-
+.nav-link.active > h5 {
+  color: $light !important;
+}
 .nav-link>h5 {
   color: $secondary;
 }
 
 .nav-link>h5:hover {
-  color: #ffffff;
+  color: $light;
 }
 
 body .navbar-light .navbar-toggler {
-  color: #ffffff !important;
+  color: $light !important;
   border-color: $secondary !important;
 }
 
@@ -23,7 +26,7 @@ body .navbar-light .navbar-toggler {
 }
 
 .language-toggle {
-  background-color: white;
+  background-color: $light;
   border-radius: 20px;
   padding: 0.5px 0.5px;
   display: inline-block
@@ -34,7 +37,7 @@ body .navbar-light .navbar-toggler {
 }
 
 .language-toggle input[type="radio"]+label {
-  background-color: white;
+  background-color: $light;
   color: $secondary;
   padding: 0px 4px;
   border-radius: 20px;
@@ -57,7 +60,7 @@ body .navbar-light .navbar-toggler {
 }
 
 .heading span {
-  background: #fff;
+  background: $light;
   padding: 0 10px;
 }
 
