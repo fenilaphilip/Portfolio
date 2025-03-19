@@ -148,7 +148,7 @@ const MY_WORKS = [
             alt: "Typescript"
         }, {
             src: "https://img.shields.io/badge/-TailwindCSS-black?&style=flat",
-            alt: "context Api"
+            alt: "Tailwind CSS"
         }, {
             src: "https://img.shields.io/badge/-React-red?&style=flat",
             alt: "React"
@@ -186,7 +186,7 @@ const MY_WORKS = [
     },
     {
         id: 3,
-        caption: "Todo List",
+        caption: "TODO LIST",
         img: todolist,
         img_alt: "app view",
         techStack: [{

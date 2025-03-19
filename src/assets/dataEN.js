@@ -1,6 +1,19 @@
 import fenilaCV from "../assets/FenilaResume.pdf";
 
-export const PROFILE = {
+export const NAVIGATION_EN = [
+    {
+        link: "/",
+        name: "Home"
+    }, {
+        link: "/about",
+        name: "About"
+    },
+    {
+        link: "/projects",
+        name: "Projects"
+    }];
+
+export const PROFILE_EN = {
     name: "Fenila Sosa Philip",
     job: "Frontend Developer",
     resume: fenilaCV,
@@ -9,9 +22,18 @@ export const PROFILE = {
     about: [
         "I would describe myself as a passionate programming enthusiast - always seeking to improve my skills and knowledge through experimenting with different tools and technologies. I have been developing websites with React and JavaScript for about 2 years. I am proficient in building responsive web interfaces that are optimized for different screen sizes.",
         "After moving to Germany, I wanted to learn the German language. Then I decided to make a website for learning German words and its articles. I started learning HTML, CSS, and JavaScript and finally made a German Artikel Quiz website. Then I attended a bootcamp for React-development, which helped me learn how to build high-quality webapps using React and how to manage larger code bases with the help of git."
-    ]
+    ],
+    cvbtnCalled: "DOWNLOAD RESUME",
+    lang: ["English, ", "German"]
 };
 
+export const HEADINGS_EN = {
+    aboutMe: "About Me",
+    lang: "Languages spoken :",
+    skills: "Tools & Technology",
+    project: "Discover some of My works & Experiments",
+    copyright: "All rights reserved"
+}
 export const SERVICES = ["Frontend Development", "Backend Development", "App development", "Responsive-design"]
 
 export const CONTACT_INFO = [
