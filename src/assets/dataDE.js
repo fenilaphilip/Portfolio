@@ -1,4 +1,4 @@
-import fenilaCV from "../assets/FenilaResume.pdf";
+import Lebenslauf from "../assets/FenilaLebenslauf.pdf";
 import softskillsDE from "../media/softskills_DE.jpg"
 
 export const NAVIGATION_DE = [
@@ -17,7 +17,7 @@ export const NAVIGATION_DE = [
 export const PROFILE_DE = {
     name: "Fenila Sosa Philip",
     job: "Frontend Entwickler",
-    resume: fenilaCV,
+    resume: Lebenslauf,
     intro: "Ich bin ein autodidaktischer Frontend-Entwickler aus Berlin mit einer Leidenschaft für Technologie und der Lösung realer Probleme mithilfe von Technologie. Ich freue mich immer darauf, mehr zu lernen und meine Software entwicklungs fähigkeiten zu verbessern.",
     dream: "Ich arbeite gerne an Frontend-Entwicklung, Webapp-Entwicklung und Responsive-Design.",
     about: [

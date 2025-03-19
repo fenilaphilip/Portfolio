@@ -9,6 +9,7 @@ export default function HomePage() {
     const textRef = useRef(null);
     const { currentLanguage } = useContext(LanguageContext);
     const PROFILE = currentLanguage === "EN" ? PROFILE_EN : PROFILE_DE;
+    const Resume = currentLanguage === "DE" ? PROFILE_DE.resume : PROFILE_EN.resume;
 
     useEffect(() => {
         // Initialize Typed.js once the component is mounted
@@ -46,7 +47,7 @@ export default function HomePage() {
                         <br />
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                             <div className="d-flex justify-content-between align-items-center">
-                                <a href={PROFILE.resume} className="btn btn-sm btn-outline-primary me-3" target="_blank" download>{PROFILE.cvbtnCalled}</a>
+                                <a href={Resume} className="btn btn-sm btn-outline-primary me-3" target="_blank" download>{PROFILE.cvbtnCalled}</a>
                             </div>
                         </div>
                     </div>
