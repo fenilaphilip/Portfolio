@@ -35,7 +35,7 @@ const MY_WORKS = [
             alt: "Cypress"
         }],
         description: "Todos application built using React, Redux Toolkit, React Router and Material UI. These powerful combination of technologies offers a seamless and intuitive user experience, allowing you to efficiently manage your tasks.",
-        link: "https://deploy-preview-2--stellular-manatee-0253a4.netlify.app/",
+        link: "https://todosplanner.netlify.app/",
         gitrepo: "https://github.com/fenilaphilip/todos"
     },
     {
